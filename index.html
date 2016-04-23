@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>Gross Domestic Product Calculator</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="./css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="./css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="./js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        
+        <script type="text/javascript" src="js/functions.js"></script>
+    </head>
+    <body>
+        <form class="form-horizontal">
+            <fieldset>
+                <!-- Form Name -->
+                <legend>GDP Calculator</legend>
+
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="cinput">Consumption expenditure:</label>  
+                  <div class="col-md-4">
+                  <input id="cinput" name="cinput" type="number" autofocus="autofocus" placeholder="" class="form-control input-md" required="">
+
+                  </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="iinput">Investment:</label>  
+                  <div class="col-md-4">
+                  <input id="iinput" name="iinput" type="number" placeholder="" class="form-control input-md" required="">
+
+                  </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="ginput">Government expenditure:</label>  
+                  <div class="col-md-4">
+                  <input id="ginput" name="ginput" type="number" placeholder="" class="form-control input-md" required="">
+
+                  </div>
+                </div>
+                
+                <div class="form-group">
+                    <h4 class="col-md-4 control-label">Net Exports:</h4>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="xinput">Exports:</label>  
+                  <div class="col-md-4">
+                  <input id="xinput" name="xinput" type="number" placeholder="" class="form-control input-md" required="">
+
+                  </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="minput">Imports:</label>  
+                  <div class="col-md-4">
+                  <input id="minput" name="minput" type="number" placeholder="" class="form-control input-md" required="">
+
+                  </div>
+                </div>
+                
+                <!-- Button (Double) -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="submit"></label>
+                  <div class="col-md-8">
+                    <button id="submit" name="submit" type="button" class="btn btn-primary" onclick="return cal_click()">Calculate</button>
+                    <button id="cancel" name="cancel" type="reset" class="btn btn-inverse">Cancel</button>
+                  </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="answer">Gross Domestic Product:</label>  
+                  <div class="col-md-4">
+                  <input id="answer" name="answer" type="text" disabled="disabled" placeholder="$ 0.00" class="form-control input-md">
+                  </div>
+                </div>
+
+            </fieldset>
+        </form>
+    </body>
+</html>
