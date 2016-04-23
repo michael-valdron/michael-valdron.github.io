@@ -1,0 +1,169 @@
+<!--
+    Author: Michael Valdron
+    Date: 04-23-2016
+-->
+<html>
+    <head>
+        <title>NGDP and RGDP Calculator</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="./css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="./css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="./js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        
+        <script type="text/javascript" src="js/functions.js"></script>
+    </head>
+    <body>
+        <form class="form-horizontal" onreset="return clr_rgdp_ngdp_click();">
+            <fieldset>
+                <!-- Form Name -->
+                <legend>Real and Nominal Gross Domestic Product Calculator</legend>
+                <div id="error" class="form-group" style="background-color: red; display: none;">
+                    <h4 class="col-md-4">ERROR</h4>
+                    <div class="col-md-8"></div>
+                </div>
+                
+                <!-- Base Year -->
+                
+                <div class="form-group">
+                    <h4 class="col-md-4"><b>Base year:</b></h4>
+                </div>
+                
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="bcqinput">Consumption:</label>  
+                  <div class="col-md-4">
+                  <input id="bcqinput" name="bcqinput" type="number" autofocus="autofocus" placeholder="Quantity" class="form-control input-md" required="">
+                  <input id="bcpinput" name="bcpinput" type="number" autofocus="autofocus" placeholder="Price per unit" class="form-control input-md" required="">
+                  </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="biqinput">Investment:</label>  
+                  <div class="col-md-4">
+                  <input id="biqinput" name="biqinput" type="number" placeholder="Quantity" class="form-control input-md" required="">
+                  <input id="bipinput" name="bipinput" type="number" placeholder="Price per unit" class="form-control input-md" required="">
+                  </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="bgqinput">Government:</label>  
+                  <div class="col-md-4">
+                  <input id="bgqinput" name="bgqinput" type="number" placeholder="Quantity" class="form-control input-md" required="">
+                  <input id="bgpinput" name="bgpinput" type="number" placeholder="Price per unit" class="form-control input-md" required="">
+                  </div>
+                </div>
+                
+                <div class="form-group">
+                    <h4 class="col-md-4">Net Exports:</h4>
+                </div>
+                
+
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="bxqinput">Exports:</label>  
+                  <div class="col-md-4">
+                  <input id="bxqinput" name="bxqinput" type="number" placeholder="Quantity" class="form-control input-md" required="">
+                  <input id="bxpinput" name="bxpinput" type="number" placeholder="Price per unit" class="form-control input-md" required="">
+                  </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="bmqinput">Imports:</label>  
+                  <div class="col-md-4">
+                  <input id="bmqinput" name="bmqinput" type="number" placeholder="Quantity" class="form-control input-md" required="">
+                  <input id="bmpinput" name="bmpinput" type="number" placeholder="Price per unit" class="form-control input-md" required="">
+                  </div>
+                </div>
+                
+                <!-- Current Year -->
+                
+                <div class="form-group">
+                    <h4 class="col-md-4"><b>Current year:</b></h4>
+                </div>
+                
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="ccqinput">Consumption:</label>  
+                  <div class="col-md-4">
+                  <input id="ccqinput" name="ccqinput" type="number" autofocus="autofocus" placeholder="Quantity" class="form-control input-md" required="">
+                  <input id="ccpinput" name="ccpinput" type="number" autofocus="autofocus" placeholder="Price per unit" class="form-control input-md" required="">
+                  </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="ciqinput">Investment:</label>  
+                  <div class="col-md-4">
+                  <input id="ciqinput" name="ciqinput" type="number" placeholder="Quantity" class="form-control input-md" required="">
+                  <input id="cipinput" name="cipinput" type="number" placeholder="Price per unit" class="form-control input-md" required="">
+                  </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="cgqinput">Government:</label>  
+                  <div class="col-md-4">
+                  <input id="cgqinput" name="cgqinput" type="number" placeholder="Quantity" class="form-control input-md" required="">
+                  <input id="cgpinput" name="cgpinput" type="number" placeholder="Price per unit" class="form-control input-md" required="">
+                  </div>
+                </div>
+                
+                <div class="form-group">
+                    <h4 class="col-md-4">Net Exports:</h4>
+                </div>
+                
+
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="cxqinput">Exports:</label>  
+                  <div class="col-md-4">
+                  <input id="cxqinput" name="cxqinput" type="number" placeholder="Quantity" class="form-control input-md" required="">
+                  <input id="cxpinput" name="cxpinput" type="number" placeholder="Price per unit" class="form-control input-md" required="">
+                  </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="cmqinput">Imports:</label>  
+                  <div class="col-md-4">
+                  <input id="cmqinput" name="cmqinput" type="number" placeholder="Quantity" class="form-control input-md" required="">
+                  <input id="cmpinput" name="cmpinput" type="number" placeholder="Price per unit" class="form-control input-md" required="">
+                  </div>
+                </div>
+                
+                <!-- Button (Double) -->
+                <div class="form-group">
+                  <div class="col-md-4"></div>
+                  <div class="col-md-8">
+                    <button id="submit" name="submit" type="button" class="btn btn-primary" onclick="return cal_rgdp_ngdp_click();">Calculate</button>
+                    <button id="cancel" name="cancel" type="reset" class="btn btn-inverse">Cancel</button>
+                  </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="ngdp">Nominal GDP:</label>  
+                  <div class="col-md-4">
+                  <input id="ngdp" name="ngdp" type="text" disabled="disabled" placeholder="$ 0.00" class="form-control input-md">
+                  </div>
+                </div>
+                
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="rgdp">Real GDP:</label>  
+                  <div class="col-md-4">
+                  <input id="rgdp" name="rgdp" type="text" disabled="disabled" placeholder="$ 0.00" class="form-control input-md">
+                  </div>
+                </div>
+
+            </fieldset>
+        </form>
+    </body>
+</html>

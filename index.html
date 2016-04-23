@@ -1,3 +1,7 @@
+<!--
+    Author: Michael Valdron
+    Date: 04-23-2016
+-->
 <html>
     <head>
         <title>Gross Domestic Product Calculator</title>
@@ -13,10 +17,14 @@
         <script type="text/javascript" src="js/functions.js"></script>
     </head>
     <body>
-        <form class="form-horizontal">
+        <form class="form-horizontal" onreset="return clr_gdp_click();">
             <fieldset>
                 <!-- Form Name -->
-                <legend>GDP Calculator</legend>
+                <legend>Gross Domestic Product Calculator</legend>
+                <div id="error" class="form-group" style="background-color: red; display: none;">
+                    <h4 class="col-md-4">ERROR</h4>
+                    <div class="col-md-8"></div>
+                </div>
 
                 <!-- Text input-->
                 <div class="form-group">
@@ -46,8 +54,9 @@
                 </div>
                 
                 <div class="form-group">
-                    <h4 class="col-md-4 control-label">Net Exports:</h4>
+                    <h4 class="col-md-4">Net Exports:</h4>
                 </div>
+                
 
                 <!-- Text input-->
                 <div class="form-group">
@@ -69,18 +78,18 @@
                 
                 <!-- Button (Double) -->
                 <div class="form-group">
-                  <label class="col-md-4 control-label" for="submit"></label>
+                  <div class="col-md-4"></div>
                   <div class="col-md-8">
-                    <button id="submit" name="submit" type="button" class="btn btn-primary" onclick="return cal_click()">Calculate</button>
+                    <button id="submit" name="submit" type="button" class="btn btn-primary" onclick="return cal_gdp_click();">Calculate</button>
                     <button id="cancel" name="cancel" type="reset" class="btn btn-inverse">Cancel</button>
                   </div>
                 </div>
 
                 <!-- Text input-->
                 <div class="form-group">
-                  <label class="col-md-4 control-label" for="answer">Gross Domestic Product:</label>  
+                  <label class="col-md-4 control-label" for="gdp">Gross Domestic Product:</label>  
                   <div class="col-md-4">
-                  <input id="answer" name="answer" type="text" disabled="disabled" placeholder="$ 0.00" class="form-control input-md">
+                  <input id="gdp" name="gdp" type="text" disabled="disabled" placeholder="$ 0.00" class="form-control input-md">
                   </div>
                 </div>
 
