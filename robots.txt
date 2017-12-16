@@ -1,0 +1,14 @@
+User-agent: Google
+Disallow:
+
+User-agent: DuckDuckGo
+Disallow:
+
+User-agent: Yahoo!
+Disallow:
+
+User-agent: Bing
+Disallow:
+
+User-agent: *
+Disallow: /
