@@ -1,14 +1,14 @@
 User-agent: Google
-Disallow:
+Disallow: /archived/
 
 User-agent: DuckDuckGo
-Disallow:
+Disallow: /archived/
 
 User-agent: Yahoo!
-Disallow:
+Disallow: /archived/
 
 User-agent: Bing
-Disallow:
+Disallow: /archived/
 
 User-agent: *
 Disallow: /
