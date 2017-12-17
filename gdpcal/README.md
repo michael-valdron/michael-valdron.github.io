@@ -1,7 +1,7 @@
 # GDPCal
 Gross Domestic Product calculator for economics problems.<br/>
-First Page: <a href="https://michael-valdron.github.io/gdpcal/index.html">GDP Calculator</a><br/>
-Second Page: <a href="https://michael-valdron.github.io/gdpcal/ngdp_rgdp_cal.html">NGDP and RGDP Calculator</a>
+First Page: <a href="http://comike.ca/gdpcal/index.html">GDP Calculator</a><br/>
+Second Page: <a href="http://comike.ca/gdpcal/ngdp_rgdp_cal.html">NGDP and RGDP Calculator</a>
 # Author
 Michael Valdron
 # Credits
