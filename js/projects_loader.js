@@ -1,7 +1,6 @@
 /**
  * @author Michael Valdron
  * Creation Date: Dec 17, 2017
- * References: p5.js - https://p5js.org/
  *
  * Data Structure Tree
  * ===================
