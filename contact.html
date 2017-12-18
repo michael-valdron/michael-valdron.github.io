@@ -8,15 +8,15 @@
     <meta name="author" content="Michael Valdron">
     <meta name="keywords" content="Portfolio, IT Professional, Software Engineer, Computer Scientist, Web Developer, Database Developer, Data Scientist">
 <!--
-  Google Verification Tag  
+  Google Verification Tag
 -->
     <meta name="google-site-verification" content="xq41rA_ZsyfZaaCkTHCTPiZsw-8CmC6L6L8QlT7eKsw" />
-    
+
     <meta property="og:site_name" content="Michael Valdron" />
     <meta property="og:title" content="Contact" />
     <meta property="og:description" content="Michael Valdron's Portfolio and Freelancing Website." />
     <meta property="og:url" content="contact.html" />
-    
+
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
@@ -25,14 +25,17 @@
 
     <!-- Custom CSS -->
     <link href="css/business-casual.css" rel="stylesheet">
-    
+
     <link href="css/base.css" rel="stylesheet">
-    
+
     <!-- jQuery -->
     <script src="vendor/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/js/bootstrap.min.js"></script>
+
+    <!-- projects_loader.js JavaScript -->
+    <script src="js/projects_loader.js"></script>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
@@ -75,7 +78,7 @@
                     </li>
                     <!-- <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">About<strong class="caret"></strong></a>
-			                        
+
 			                        <ul class="dropdown-menu">
 							<li><a href="about_me.html">About Michael</a></li>
 							<li><a href="about_freelancing.html">About Freelancing</a></li>
@@ -83,15 +86,7 @@
                     </li>-->
                     <li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects<strong class="caret"></strong></a>
-						<ul class="dropdown-menu">
-							<li><strong>Top Projects</strong></li>
-							<li><a href="https://github.com/michael-valdron/GDPCal" target="_blank">GDPCal</a></li>
-                            <li><a href="https://github.com/michael-valdron/DirectoryTree" target="_blank">Directory Tree</a></li>
-                            <li><a href="https://github.com/michael-valdron/MV-Copy-Cat" target="_blank">MV Copy Cat</a></li>
-                            <li class="divider"></li>
-							<li>
-								<a href="projects.html">Show More Projects</a>
-							</li>
+						<ul class="dropdown-menu" id="projects-h">
 						</ul>
 					</li>
                     <li>
@@ -139,7 +134,7 @@
 					            <img src="img/256px-Linkedin_icon.svg.png" alt="LinkedIn" style="width:50px;height:50px;">
 					        </a>
 					    </div>
-                        
+
 				    </div>
 				</div>
 				<div class="clearfix"></div>
@@ -161,7 +156,7 @@
         </div>
     </div>
     <!-- /.container -->
-	
+
 	</div>
 	<footer>
         <div class="container">
@@ -172,7 +167,6 @@
             </div>
         </div>
     </footer>
-    
-
-    
-</body></html>
+    <script type="application/javascript">projectsHeader();</script>
+    </body>
+</html>
