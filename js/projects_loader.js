@@ -35,13 +35,13 @@ function printRow(project, catagory, p_html) {
             if (project.project_links.length < 2) {
                 html += "<tr><td>" + project.project_name + "</td><td>" + project.project_links[0].label + "</td></tr>";
             } else {
-                html += "<tr><td rowspan=\"2\">" + project.project_name + "</td><td>" + project.project_links[0].label + "</td></tr>";
+                html += "<tr><td rowspan=\"" + project.project_links.length + "\">" + project.project_name + "</td><td>" + project.project_links[0].label + "</td></tr>";
             }
         } else {
             if (project.project_links.length < 2) {
                 html += "<tr><td>" + project.project_name + "</td><td><a href=\"" + project.project_links[0].url + "\" target=\"_blank\">" + project.project_links[0].label + "</a></td></tr>";
             } else {
-                html += "<tr><td rowspan=\"2\">" + project.project_name + "</td><td><a href=\"" + project.project_links[0].url + "\" target=\"_blank\">" + project.project_links[0].label + "</a></td></tr>";
+                html += "<tr><td rowspan=\"" + project.project_links.length + "\">" + project.project_name + "</td><td><a href=\"" + project.project_links[0].url + "\" target=\"_blank\">" + project.project_links[0].label + "</a></td></tr>";
             }
         }
         for (var i = 1; i < project.project_links.length; i++) {
