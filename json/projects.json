@@ -83,7 +83,8 @@
     {
     	"project_name": "Information Visualization - Classroom Activities",
     	"catagory": "University of Ontario Institute of Technology Projects",
-    	"project_links": [{"label": "Lecture 7 - Intro to D3 Part 1 (Jan 30, 2018)", "url": "https://github.com/michael-valdron/LearningExercises/tree/master/JavaScript/D3js/CSCI4210U/InClass20180130"}],
+    	"project_links": [{"label": "Lecture 7 - Intro to D3 Part 1 (Jan 30, 2018)", "url": "https://github.com/michael-valdron/learning-exercises/tree/master/JavaScript/D3js/CSCI4210U/InClass20180130"},
+                         {"label": "Lecture 7 - Intro to D3 Part 2 (Feb 01, 2018)", "url": "https://github.com/michael-valdron/learning-exercises/tree/master/JavaScript/D3js/CSCI4210U/InClass20180201"}],
     	"prim_link": 0,
     	"top_project": false
     },
