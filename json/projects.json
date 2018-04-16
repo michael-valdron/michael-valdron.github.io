@@ -89,6 +89,13 @@
     	"top_project": false
     },
     {
+    	"project_name": "Information Visualization - Steam Trends",
+    	"catagory": "University of Ontario Institute of Technology Projects",
+    	"project_links": [{"label": "Steam Trends Homepage", "url": "http://comike.ca/steam-trends/"}],
+    	"prim_link": 0,
+    	"top_project": true
+    },
+    {
     	"project_name": "Mountain View Community Hospital Database System",
     	"catagory": "Durham College Projects",
     	"project_links": [{"label": "Source - Coming Soon!", "url": ""},
