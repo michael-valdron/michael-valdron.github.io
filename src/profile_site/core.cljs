@@ -9,6 +9,12 @@
 (def site-title "Michael Valdron")
 (def image-url "")
 
+(def person-name
+  [:h4 [:b site-title]])
+(def header-name
+  [:h1 [:b site-title]])
+
+;; Homepage Content
 (defn homepage []
   [:div {:id "content"}
    [:h1 "Hello!"]
@@ -17,8 +23,8 @@
 (defn render-site []
   (r/render-component [homepage]
                       (js/document.getElementById "app"))
-  (d/set-html! (d/by-id "person-name") (h/create [:h4 [:b site-title]]))
-  (d/set-html! (d/by-id "header-name") (h/create [:h1 [:b site-title]]))
+  (d/set-html! (d/by-id "person-name") (h/create person-name))
+  (d/set-html! (d/by-id "header-name") (h/create header-name))
   (d/set-attr! (d/by-id "main-img") "src" image-url))
 
 (render-site)
