@@ -1,0 +1,120 @@
+{"projects": [
+    {
+    	"project_name": "Portfolio Website",
+    	"catagory": "Self Projects",
+    	"project_links": [{"label": "Source", "url": "https://github.com/michael-valdron/michael-valdron.github.io"}],
+    	"prim_link": 0,
+    	"top_project": true
+    },
+    {
+    	"project_name": "Directory Tree",
+    	"catagory": "Self Projects",
+    	"project_links": [{"label": "Source", "url": "https://github.com/michael-valdron/DirectoryTree"}],
+    	"prim_link": 0,
+    	"top_project": true
+    },
+    {
+    	"project_name": "GDPCal",
+    	"catagory": "Self Projects",
+    	"project_links": [{"label": "Source", "url": "https://github.com/michael-valdron/gdpcal"},
+    			  {"label": "Preview", "url": "http://comike.ca/gdpcal/"}],
+    	"prim_link": 1,
+    	"top_project": true
+    },
+    {
+    	"project_name": "MV Copy Cat",
+    	"catagory": "Self Projects",
+    	"project_links": [{"label": "Source", "url": "https://github.com/michael-valdron/MV-Copy-Cat"}],
+    	"prim_link": 0,
+    	"top_project": false
+    },
+    {
+    	"project_name": "File Name Clipping Tool",
+    	"catagory": "Self Projects",
+    	"project_links": [{"label": "Source", "url": "https://github.com/michael-valdron/FileNameClippingTool"}],
+    	"prim_link": 0,
+    	"top_project": false
+    },
+    {
+    	"project_name": "Binary Search",
+    	"catagory": "Self Projects",
+    	"project_links": [{"label": "Source", "url": "https://github.com/michael-valdron/BinarySearch"}],
+    	"prim_link": 0,
+    	"top_project": false
+    },
+    {
+        "project_name": "Standard Threads",
+    	"catagory": "Self Projects",
+    	"project_links": [{"label": "Source", "url": "https://github.com/michael-valdron/std-threads"}],
+    	"prim_link": 0,
+    	"top_project": false
+    },
+    {
+    	"project_name": "Rotate Vector",
+    	"catagory": "Self Projects",
+    	"project_links": [{"label": "Source", "url": "https://github.com/michael-valdron/rotate-vector"}],
+    	"prim_link": 0,
+    	"top_project": false
+    },
+    {
+    	"project_name": "Compilers Assignments",
+    	"catagory": "University of Ontario Institute of Technology Projects",
+    	"project_links": [{"label": "Assignment 1 - MyLexer", "url": "https://github.com/michael-valdron/MyLexer"}],
+    	"prim_link": 0,
+    	"top_project": false
+    },
+    {
+    	"project_name": "Machine Learning Assignments",
+    	"catagory": "University of Ontario Institute of Technology Projects",
+    	"project_links": [{"label": "Assignment 1 - Optimization and Line Fitting", "url": "https://github.com/michael-valdron/Optimization-LineFitting"},
+            {"label": "Assignment 2 - Tensorflow Learning", "url": "https://github.com/michael-valdron/TensorflowLearning"}],
+    	"prim_link": 0,
+    	"top_project": false
+    },
+    {
+    	"project_name": "Simulations and Modeling Assignments",
+    	"catagory": "University of Ontario Institute of Technology Projects",
+    	"project_links": [{"label": "Assignment 1 - Slinky Simulation", "url": "https://github.com/michael-valdron/SlinkySimulation"},
+            {"label": "Assignment 2 - Moving Disks Simulation", "url": "https://github.com/michael-valdron/MovingDisks"},
+            {"label": "Assignment 2 - Falling Leaf Simulation", "url": "https://github.com/michael-valdron/FallingLeaf"}],
+    	"prim_link": 0,
+    	"top_project": false
+    },
+    {
+    	"project_name": "Information Visualization - Classroom Activities",
+    	"catagory": "University of Ontario Institute of Technology Projects",
+    	"project_links": [{"label": "Lecture 7 - Intro to D3 Part 1 (Jan 30, 2018)", "url": "https://github.com/michael-valdron/learning-exercises/tree/master/JavaScript/D3js/CSCI4210U/InClass20180130"},
+                         {"label": "Lecture 7 - Intro to D3 Part 2 (Feb 01, 2018)", "url": "https://github.com/michael-valdron/learning-exercises/tree/master/JavaScript/D3js/CSCI4210U/InClass20180201"}],
+    	"prim_link": 0,
+    	"top_project": false
+    },
+    {
+    	"project_name": "Information Visualization - Steam Trends",
+    	"catagory": "University of Ontario Institute of Technology Projects",
+    	"project_links": [{"label": "Steam Trends Homepage", "url": "http://comike.ca/steam-trends/"}],
+    	"prim_link": 0,
+    	"top_project": true
+    },
+    {
+    	"project_name": "Mountain View Community Hospital Database System",
+    	"catagory": "Durham College Projects",
+    	"project_links": [{"label": "Source - Coming Soon!", "url": ""},
+    			  {"label": "Prezi Database Proposal", "url": "http://prezi.com/fq-mivl0alzr/?utm_campaign=share&utm_medium=copy&rc=ex0share"}],
+    	"prim_link": 0,
+    	"top_project": false
+    },
+    {
+    	"project_name": "Durham Automobile Company Website",
+    	"catagory": "Durham College Projects",
+    	"project_links": [{"label": "Source", "url": "https://github.com/michael-valdron/DurhamAutomobileCompany"}],
+    	"prim_link": 0,
+    	"top_project": true
+    },
+    {
+    	"project_name": "Course Transaction System",
+    	"catagory": "Durham College Projects",
+    	"project_links": [{"label": "Source", "url": "https://github.com/michael-valdron/CourseTransactionSystem"}],
+    	"prim_link": 0,
+    	"top_project": true
+    }]
+}
