@@ -24,18 +24,18 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
 profile_site.core.render_site = (function profile_site$core$render_site(){
 reagent.core.render_component.call(null,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [profile_site.core.homepage_content], null),document.getElementById("app"));
 
-domina.set_html_BANG_.call(null,domina.by_id.call(null,"person-name"),(function (){var v38679 = profile_site.core.person_name;
-var el__22481__auto__ = hipo.interpreter.create.call(null,v38679,null);
-hipo.core.set_hiccup_BANG_.call(null,el__22481__auto__,v38679);
+domina.set_html_BANG_.call(null,domina.by_id.call(null,"person-name"),(function (){var v25339 = profile_site.core.person_name;
+var el__23734__auto__ = hipo.interpreter.create.call(null,v25339,null);
+hipo.core.set_hiccup_BANG_.call(null,el__23734__auto__,v25339);
 
-return el__22481__auto__;
+return el__23734__auto__;
 })());
 
-domina.set_html_BANG_.call(null,domina.by_id.call(null,"header-name"),(function (){var v38680 = profile_site.core.header_name;
-var el__22481__auto__ = hipo.interpreter.create.call(null,v38680,null);
-hipo.core.set_hiccup_BANG_.call(null,el__22481__auto__,v38680);
+domina.set_html_BANG_.call(null,domina.by_id.call(null,"header-name"),(function (){var v25340 = profile_site.core.header_name;
+var el__23734__auto__ = hipo.interpreter.create.call(null,v25340,null);
+hipo.core.set_hiccup_BANG_.call(null,el__23734__auto__,v25340);
 
-return el__22481__auto__;
+return el__23734__auto__;
 })());
 
 return domina.set_attr_BANG_.call(null,domina.by_class.call(null,"main-img"),"src",profile_site.core.main_image_url);
@@ -45,4 +45,4 @@ return null;
 });
 profile_site.core.render_site.call(null);
 
-//# sourceMappingURL=core.js.map?rel=1527844609784
+//# sourceMappingURL=core.js.map?rel=1528121916295

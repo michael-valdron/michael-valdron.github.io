@@ -1,0 +1,16 @@
+[
+  {
+
+    "title": "Steam Trends",
+    "link": "https://github.com/michael-valdron/steam-trends",
+    "img": "img/steam-trends.png",
+    "descr": "Shows the different trends on the Steam platform over the years."
+  },
+  {
+
+    "title": "Frequent Item Sets",
+    "link": "https://github.com/michael-valdron/frequent-item-sets",
+    "img": "",
+    "descr": "Golang and Python implementations of big data analytics algorithms for finding frequent itemsets from large datasets. These algorithms consists of Apriori and PCY algorithms. These implementations are part of a course project for the Big Data Analytics course at UOIT."
+  }
+]

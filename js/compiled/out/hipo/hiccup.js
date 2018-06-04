@@ -51,8 +51,8 @@ var s__$1 = cs;
 while(true){
 var i__$1 = s__$1.indexOf(hipo.hiccup.class_separator);
 if((i__$1 > (0))){
-var G__21921 = s__$1.replace(hipo.hiccup.class_separator," ");
-s__$1 = G__21921;
+var G__21941 = s__$1.replace(hipo.hiccup.class_separator," ");
+s__$1 = G__21941;
 continue;
 } else {
 return s__$1;
@@ -162,8 +162,8 @@ return cljs.core.vector_QMARK_.call(null,o);
 if(cljs.core._EQ_.call(null,c,i)){
 return true;
 } else {
-var G__21922 = (i + (1));
-i = G__21922;
+var G__21942 = (i + (1));
+i = G__21942;
 continue;
 }
 } else {
@@ -203,7 +203,7 @@ hipo.hiccup.sentinel = (new hipo.hiccup.Sentinel());
 hipo.hiccup.conjs_BANG_ = (function hipo$hiccup$conjs_BANG_(v,s){
 while(true){
 if(cljs.core.seq.call(null,s)){
-var G__21923 = (function (){var f = cljs.core.first.call(null,s);
+var G__21943 = (function (){var f = cljs.core.first.call(null,s);
 if(cljs.core.truth_((function (){var or__3922__auto__ = hipo.hiccup.literal_QMARK_.call(null,f);
 if(cljs.core.truth_(or__3922__auto__)){
 return or__3922__auto__;
@@ -216,9 +216,9 @@ return cljs.core.conj_BANG_.call(null,v,f);
 return hipo.hiccup.conjs_BANG_.call(null,v,f);
 }
 })();
-var G__21924 = cljs.core.rest.call(null,s);
-v = G__21923;
-s = G__21924;
+var G__21944 = cljs.core.rest.call(null,s);
+v = G__21943;
+s = G__21944;
 continue;
 } else {
 return v;
@@ -239,11 +239,11 @@ var f = cljs.core.nth.call(null,v__$1,(0),hipo.hiccup.sentinel);
 if((hipo.hiccup.sentinel === f)){
 return cljs.core.persistent_BANG_.call(null,acc);
 } else {
-var G__21925 = ((cljs.core.seq_QMARK_.call(null,f))?hipo.hiccup.conjs_BANG_.call(null,acc,f):((!((f == null)))?cljs.core.conj_BANG_.call(null,acc,f):acc
+var G__21945 = ((cljs.core.seq_QMARK_.call(null,f))?hipo.hiccup.conjs_BANG_.call(null,acc,f):((!((f == null)))?cljs.core.conj_BANG_.call(null,acc,f):acc
 ));
-var G__21926 = cljs.core.subvec.call(null,v__$1,(1));
-acc = G__21925;
-v__$1 = G__21926;
+var G__21946 = cljs.core.subvec.call(null,v__$1,(1));
+acc = G__21945;
+v__$1 = G__21946;
 continue;
 }
 break;
@@ -275,4 +275,4 @@ return null;
 }
 });
 
-//# sourceMappingURL=hiccup.js.map?rel=1527842009937
+//# sourceMappingURL=hiccup.js.map?rel=1528121910554
