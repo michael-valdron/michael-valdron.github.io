@@ -1,5 +1,4 @@
-/resources/public/archived/**
-figwheel_server.log
+/resources/public/**
 pom.xml
 *jar
 /lib/
