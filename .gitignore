@@ -1,4 +1,4 @@
-/resources/public/**
+/resources/public
 pom.xml
 *jar
 /lib/
