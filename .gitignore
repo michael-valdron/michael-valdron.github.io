@@ -1,10 +1,4 @@
-/resources/public/js/compiled/**
-/resources/public/.git
-/resources/public/CNAME
-/resources/public/sitemap.xml
-/resources/public/gdpcal/**
 /resources/public/archived/**
-/resources/public/robots.txt
 figwheel_server.log
 pom.xml
 *jar
