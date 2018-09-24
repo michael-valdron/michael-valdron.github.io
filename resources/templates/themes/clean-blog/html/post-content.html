@@ -1,0 +1,26 @@
+{% for group in groups %}
+    {% for post in group.posts %}
+        {{post.title}}
+    {% endfor %}
+{% endfor %}
+<div class="post-preview">
+    <a href="{{post.uri}}">
+        <h2 class="post-title">
+            {{post.title}}
+        </h2>
+        <h3 class="post-subtitle">
+            {{post.headline}}
+        </h3>
+        {% if post.tags|not-empty %}
+        <div id="post-tags">
+            <b>Tags: </b>
+            {% for tag in post.tags %}
+            <a href="{{tag.uri}}">{{tag.name}}</a>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </a>
+    <p class="post-meta">Posted by
+        <a href="#">{{post.author}}</a>
+    on {{post.date|date:longDate}}</p>
+</div>

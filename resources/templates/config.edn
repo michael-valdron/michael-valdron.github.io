@@ -1,4 +1,4 @@
-{:site-title           "Michael Valdron's Site"
+{:site-title           "Michael Valdron"
  :author               "Michael Valdron"
  :description          ""
  :site-url             "https://michaelvaldron.ca/"
@@ -9,6 +9,9 @@
  :tag-root-uri         "tags-output"
  :author-root-uri      "authors-output"
  :blog-prefix          "/"
+ :github-link          "https://github.com/michael-valdron"
+ :facebook-link        ""
+ :twitter-link         ""
  :rss-name             "feed.xml"
  :rss-filters          ["cryogen"]
  :recent-posts         3
@@ -17,7 +20,7 @@
  :sass-src             []
  :sass-path            "sass"
  :compass-path         "compass"
- :theme                "blue"
+ :theme                "clean-blog"
  :resources            ["img"]
  :keep-files           [".git"]
  :disqus?              false
@@ -25,7 +28,7 @@
  :ignored-files        [#"\.#.*" #".*\.swp$"]
  :posts-per-page       5
  :blocks-per-preview   2
- :previews?            false
+ :previews?            true
  :clean-urls?          true
  :hide-future-posts?   true
  :klipse               {}

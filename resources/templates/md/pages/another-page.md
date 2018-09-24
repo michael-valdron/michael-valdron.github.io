@@ -1,6 +1,6 @@
 {:title "Another Page"
  :layout :page
- :page-index 1}
+ :page-index 3}
 
 ## Look at this sweet page
 

@@ -1,0 +1,26 @@
+{% extends "/html/base.html" %}
+{% block content %}
+<!-- Page Header -->
+{% include "/html/home-header.html" %}
+
+<!-- Main Content -->
+<div class="container">
+  <div id="content">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        {% include "/html/post-content.html" %}
+        <hr>
+        <!-- Pager -->
+        <div class="clearfix">
+          <a class="btn btn-primary float-right" href="{{post.next.uri}}">{{post.next.title}} &rarr;</a>
+        </div>
+        {% if disqus? %}
+        <div id="comments">
+            <a href="{{post.uri}}#disqus_thread">View Comments</a>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
