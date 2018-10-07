@@ -10,6 +10,7 @@
  :author-root-uri      "authors-output"
  :blog-prefix          "/"
  :github-link          "https://github.com/michael-valdron"
+ :linkedin-link        "https://www.linkedin.com/in/michael-valdron-3b8614a5/"
  :facebook-link        ""
  :twitter-link         ""
  :rss-name             "feed.xml"
@@ -21,7 +22,7 @@
  :sass-path            "sass"
  :compass-path         "compass"
  :theme                "clean-blog"
- :resources            ["img"]
+ :resources            ["img" "css" "js"]
  :keep-files           [".git"]
  :disqus?              false
  :disqus-shortname     ""
@@ -32,4 +33,4 @@
  :clean-urls?          true
  :hide-future-posts?   true
  :klipse               {}
- :debug?               false}
+ :debug?               true}

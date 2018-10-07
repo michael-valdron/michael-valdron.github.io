@@ -11,7 +11,7 @@
     <title>{{title}}{% block subtitle %}{% endblock %}</title>
 
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
-	  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
 
     <!-- Bootstrap core CSS -->
     {% style "vendor/bootstrap/css/bootstrap.min.css" %}
@@ -23,6 +23,10 @@
 
     <!-- Custom styles for this template -->
     {% style "css/clean-blog.min.css" %}
+
+    <!-- Prism Syntax Highlighting -->
+    {% style "css/prism.css" %}
+    {% script "js/prism.js" %}
 
   </head>
 
@@ -88,6 +92,16 @@
                   <span class="fa-stack fa-lg">
                     <i class="fas fa-circle fa-stack-2x"></i>
                     <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              {% endif %}
+              {% if linkedin-link|not-empty %}
+              <li class="list-inline-item">
+                <a href="{{linkedin-link}}" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
                   </span>
                 </a>
               </li>

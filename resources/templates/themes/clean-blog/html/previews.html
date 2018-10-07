@@ -4,6 +4,7 @@
 {% include "/html/home-header.html" %}
 
 <!-- Main Content -->
+{% if posts|not-empty %}
 <div class="container">
     <div id="content">
 <div id="post">
@@ -28,4 +29,5 @@
         <a class="btn btn-primary float-left" href="{{prev-uri}}">&larr;</a>
     </div>
 </div>
+{% endif %}
 {% endblock %}

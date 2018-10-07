@@ -4,6 +4,7 @@
 {% include "/html/home-header.html" %}
 
 <!-- Main Content -->
+{% if post|not-empty %}
 <div class="container">
   <div id="content">
     <div class="row">
@@ -23,4 +24,5 @@
     </div>
   </div>
 </div>
+{% endif %}
 {% endblock %}
