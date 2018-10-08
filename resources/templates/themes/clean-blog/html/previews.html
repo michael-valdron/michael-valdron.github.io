@@ -6,27 +6,36 @@
 <!-- Main Content -->
 {% if posts|not-empty %}
 <div class="container">
-    <div id="content">
-<div id="post">
-    {% for post in posts %}
     <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        {% include "/html/post-content.html" %}
-        <hr>
-        {% if disqus? %}
-        <div id="comments">
-            <a href="{{post.uri}}#disqus_thread">View Comments</a>
-        </div>
-        <hr>
-        {% endif %}
-      </div>
-    </div>
-    {% endfor %}
+        <div class="col-lg-9 col-md-11 mx-auto">
+            <div id="content">
+                <div id="post">
+                    {% for post in posts %}
+                    <div class="row">
+                        <div class="col-lg-8 col-md-10 mx-auto">
+                            {% include "/html/post-content.html" %}
+                            <hr>
+                            {% if disqus? %}
+                            <div id="comments">
+                                <a href="{{post.uri}}#disqus_thread">View Comments</a>
+                            </div>
+                            <hr>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
 
-    <!-- Pager -->
-    <div class="clearfix">
-        <a class="btn btn-primary float-right" href="{{next-uri}}">&rarr;</a>
-        <a class="btn btn-primary float-left" href="{{prev-uri}}">&larr;</a>
+                    <!-- Pager -->
+                    <div class="clearfix">
+                        <a class="btn btn-primary float-right" href="{{next-uri}}">&rarr;</a>
+                        <a class="btn btn-primary float-left" href="{{prev-uri}}">&larr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-5 mx-auto text-center">
+                <a class="twitter-timeline" data-width="400" data-height="300" href="https://twitter.com/michaelvaldron?ref_src=twsrc%5Etfw">Tweets by michaelvaldron</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
     </div>
 </div>
 {% endif %}

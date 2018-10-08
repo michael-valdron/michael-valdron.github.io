@@ -1,5 +1,6 @@
 {:title "Contact"
  :layout :page
+ :mimg "../img/contact.jpg"
  :page-index 2
  :navbar? true}
 
