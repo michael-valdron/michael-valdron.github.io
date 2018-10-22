@@ -12,4 +12,8 @@
             :plugins [[lein-ring "0.9.7"]]
             :main cryogen.core
             :ring {:init cryogen.server/init
-                   :handler cryogen.server/handler})
+                   :handler cryogen.server/handler
+                   :auto-reload? true
+                   :auto-refresh? true
+                   :reload-paths ["src"]
+                   :refresh-paths ["resources/public"]})

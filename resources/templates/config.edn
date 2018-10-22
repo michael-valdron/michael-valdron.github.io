@@ -33,4 +33,4 @@
  :clean-urls?          true
  :hide-future-posts?   true
  :klipse               {}
- :debug?               true}
+ :debug?               false}
