@@ -34,6 +34,7 @@ Some other interests Michael has is:
 - Astronomy
 - Quantum Mechanics
 - Traveling
+- Video Games
 - Arts
 - Photography
 - Meditation

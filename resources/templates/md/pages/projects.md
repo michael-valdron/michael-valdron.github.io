@@ -2,7 +2,7 @@
  :layout :page
  :mimg "../img/projects.jpg"
  :page-index 1
- :navbar? true}
+ :navbar? false}
 
 <div class="row text-center">
 <div class="col-lg-6">
