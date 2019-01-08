@@ -1,34 +1,131 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
 <url>
-  <loc>http://michaelvaldron.ca/</loc>
-  <lastmod>2017-12-04T17:43:25+00:00</lastmod>
-  <priority>1.00</priority>
+<loc>
+https://michaelvaldron.ca/authors-output/Michael Valdron/index.html
+</loc>
+<lastmod>
+2019-01-08
+</lastmod>
 </url>
 <url>
-  <loc>http://michaelvaldron.ca/index.html</loc>
-  <lastmod>2017-12-04T17:43:25+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>
+https://michaelvaldron.ca/404.html
+</loc>
+<lastmod>
+2019-01-08
+</lastmod>
 </url>
 <url>
-  <loc>http://michaelvaldron.ca/about_me.html</loc>
-  <lastmod>2017-12-04T17:43:25+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>
+https://michaelvaldron.ca/posts-output/2019-01-08-welcome/index.html
+</loc>
+<lastmod>
+2019-01-08
+</lastmod>
 </url>
 <url>
-  <loc>http://michaelvaldron.ca/projects.html</loc>
-  <lastmod>2017-12-04T17:43:25+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>
+https://michaelvaldron.ca/contact/index.html
+</loc>
+<lastmod>
+2019-01-08
+</lastmod>
 </url>
 <url>
-  <loc>http://michaelvaldron.ca/contact.html</loc>
-  <lastmod>2017-12-04T17:43:25+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>
+https://michaelvaldron.ca/index.html
+</loc>
+<lastmod>
+2019-01-08
+</lastmod>
+</url>
+<url>
+<loc>
+https://michaelvaldron.ca/links/index.html
+</loc>
+<lastmod>
+2019-01-08
+</lastmod>
+</url>
+<url>
+<loc>
+https://michaelvaldron.ca/tags-output/portfolio/index.html
+</loc>
+<lastmod>
+2019-01-08
+</lastmod>
+</url>
+<url>
+<loc>
+https://michaelvaldron.ca/tags-output/blog/index.html
+</loc>
+<lastmod>
+2019-01-08
+</lastmod>
+</url>
+<url>
+<loc>
+https://michaelvaldron.ca/archives/index.html
+</loc>
+<lastmod>
+2019-01-08
+</lastmod>
+</url>
+<url>
+<loc>
+https://michaelvaldron.ca/interests/index.html
+</loc>
+<lastmod>
+2019-01-08
+</lastmod>
+</url>
+<url>
+<loc>
+https://michaelvaldron.ca/tags/index.html
+</loc>
+<lastmod>
+2019-01-08
+</lastmod>
+</url>
+<url>
+<loc>
+https://michaelvaldron.ca/projects/research/index.html
+</loc>
+<lastmod>
+2019-01-08
+</lastmod>
+</url>
+<url>
+<loc>
+https://michaelvaldron.ca/projects/index.html
+</loc>
+<lastmod>
+2019-01-08
+</lastmod>
+</url>
+<url>
+<loc>
+https://michaelvaldron.ca/projects/open-source/steam-trends/index.html
+</loc>
+<lastmod>
+2019-01-08
+</lastmod>
+</url>
+<url>
+<loc>
+https://michaelvaldron.ca/projects/open-source/index.html
+</loc>
+<lastmod>
+2019-01-08
+</lastmod>
+</url>
+<url>
+<loc>
+https://michaelvaldron.ca/about/index.html
+</loc>
+<lastmod>
+2019-01-08
+</lastmod>
 </url>
 </urlset>
