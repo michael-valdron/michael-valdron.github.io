@@ -29,8 +29,8 @@
  :ignored-files        [#"\.#.*" #".*\.swp$"]
  :posts-per-page       5
  :blocks-per-preview   2
+ :clean-urls           :trailing-slash
  :previews?            true
- :clean-urls?          true
  :hide-future-posts?   true
  :klipse               {}
  :debug?               false}

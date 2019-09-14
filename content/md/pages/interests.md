@@ -9,7 +9,7 @@
 Some interests of Michael's include:
 
 - Programming (Web Development in particular)
-- Artificial Intelligence
+- Artificial Intelligence (Both Learning-based and Classical)
 - Operating System Customization
 - Computer Building/Tinkering
 - Mathematics
@@ -33,7 +33,7 @@ Some other interests Michael has is:
 
 - Astronomy
 - Quantum Mechanics
-- Traveling
+- Travelling
 - Video Games
 - Arts
 - Photography
