@@ -3,7 +3,7 @@ Live Website Repo: [https://github.com/michael-valdron/michael-valdron.github.io
 
 ## About
 
-My personal portfolio and freelancing website.
+My personal portfolio website.
 
 ## Credits
 
