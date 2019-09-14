@@ -1,15 +1,11 @@
-{:title "Open Source Projects"
+{:title "Research Projects"
  :layout :page
- :mimg "../img/open-source.jpg"
- :page-index 3
+ :mimg "../img/research.jpg"
+ :page-index 6
  :navbar? false}
 
 # Current
 
-No current projects happening :(
+For more research projects Michael contributes to, check out the Ontario Tech's Database Research Group's website below:
 
-# Past
-
-[![Steam Trends](../../img/steam-trends.png steam-trends | width=60%)](steam-trends)
-----------
-[**steam-trends**](steam-trends)
+**<a href="http://db.science.uoit.ca/" target="_blank">Research Group at Ontario Tech University</a>**
