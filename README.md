@@ -9,4 +9,4 @@ My personal portfolio and freelancing website.
 
 Theme used: Business Casual by Start Bootstrap
 
-Web Generation Engine: [https://github.com/cryogen-project/cryogen](Cryogen) by Carmen La
+Web Generation Engine: [Cryogen](https://github.com/cryogen-project/cryogen) by Carmen La
