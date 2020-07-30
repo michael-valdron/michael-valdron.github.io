@@ -7,6 +7,6 @@ My personal portfolio website.
 
 ## Credits
 
-Theme used: Business Casual by Start Bootstrap
+Theme used: Clean Blog by Blackrock Digital LLC.
 
 Web Generation Engine: [Cryogen](https://github.com/cryogen-project/cryogen) by Carmen La
