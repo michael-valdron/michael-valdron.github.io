@@ -1,35 +1,27 @@
 {:title "Industry Experiences"
  :layout :page
  :mimg "../img/industry.jpg"
- :page-index 8
- :navbar? false}
+ :page-index 2
+ :navbar? true}
 
 # Previous Work Experiences
-**Ontario Power Generation**  
+<a href="#ontario_power_generation">**Ontario Power Generation**</a><br/>
 *Planning and Project Controls Co-op*  
 May 2016 - August 2016 (4 months)  
-Clarington, ON, Canada  
+Darlington, ON, Canada  
   
-**John Howard Society**  
-*Database Developer*  
-April 2015 - May 2015 (2 months)  
-Oshawa, ON, Canada  
+<a href="#john_howard_society">**John Howard Society**</a><br/>
+*Full-Stack Developer*  
+April 2015 - September 2015 (5 months)  
+Oshawa, ON, Canada
 
-# Work Responsibilities
-## Ontario Power Generation
-- Data Analytics, Data Migration, Data Cleaning, and System Development for supporting Planning and Project Controls within the Ontario Power Generation Nuclear Refurbishment project
-- Produced and modified Ontario Power Generation Governance and other documentation
-- Produced workflow services within Microsoft Access and Microsoft SharePoint
-- Performed various Information Gathering tasks to help track data sources for Business Intelligence
+# Ontario Power Generation
+## Work Responsibilities
+- Built solutions in the form of software and tools to improve the work efficiency to support the internal team.
+- Provided convenience in workflows which reduced expenses on labour.
+- Project managed own projects to ensure optimal turn around time.
 
-## John Howard Society
-- To Perform database migration from legacy Microsoft Access to a MySQL Database System
-- Re-Engineer Microsoft Access forms and reports into a functional 3-tier web application
-- Design and develop new replacement application and database system
-- Make additional improvements in new application
-
-# Skills Acquired
-## Ontario Power Generation
+## Skills Acquired
 ### Technical
 - Software experience with working in Access 2007, Excel 2007, Word 2007, Outlook 2007, Visio 2007, SQL Server Management Studio 2014, SQL Server Report Builder 2014, and SharePoint 2007/2013
 - Coding experience working in Visual Basic for Applications (VBA), Structured Query Language (SQL), and HTML/CSS within SharePoint 2013
@@ -44,7 +36,13 @@ Oshawa, ON, Canada
 - Information Gathering
 - Self Scheduling and Documenting
 
-## John Howard Society
+# John Howard Society
+## Work Responsibilities
+- Built a 3-tier web application to serve as a tracking system for item inventory.
+- Using **MySQL**, **PHP**, and **JQuery** produced a tracking system that was efficient, saving expenses on the budget.
+- Written design documents for efficient transition of development.
+
+## Skills Acquired
 ### Technical
 - Knowledge gain in building on and maintaining MySQL DBMS
 - Dealing with Database constraints and data repair
