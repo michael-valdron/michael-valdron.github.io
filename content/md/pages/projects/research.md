@@ -16,7 +16,7 @@
 
 For more on research projects Michael contributes to, check out the Ontario Tech Database Research Group website below:
 
-**Research Group at Ontario Tech University (Under Maintenance)**
+**<a href="http://db.science.uoit.ca/" target="_blank">Research Group at Ontario Tech University</a>**
 
 
 # Current
