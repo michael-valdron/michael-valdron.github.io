@@ -6,14 +6,14 @@
 
 # Previous Work Experiences
 <a href="#ontario_power_generation">**Ontario Power Generation**</a><br/>
-*Planning and Project Controls Co-op*  
-May 2016 - August 2016 (4 months)  
-Darlington, ON, Canada  
-  
+*Planning and Project Controls Co-op*<br/>
+Summer 2016<br/>
+Darlington, ON, Canada<br/>
+
 <a href="#john_howard_society">**John Howard Society**</a><br/>
-*Full-Stack Developer*  
-April 2015 - September 2015 (5 months)  
-Oshawa, ON, Canada
+*Full-Stack Developer*<br/>
+Summer 2015<br/>
+Oshawa, ON, Canada<br/>
 
 # Ontario Power Generation
 ## Work Responsibilities
@@ -23,8 +23,8 @@ Oshawa, ON, Canada
 
 ## Skills Acquired
 ### Technical
-- Software experience with working in Access 2007, Excel 2007, Word 2007, Outlook 2007, Visio 2007, SQL Server Management Studio 2014, SQL Server Report Builder 2014, and SharePoint 2007/2013
-- Coding experience working in Visual Basic for Applications (VBA), Structured Query Language (SQL), and HTML/CSS within SharePoint 2013
+- Software experience with working in Microsoft Office, Microsoft Visio, SQL Server Management Studio, SQL Server Report Builder, and SharePoint
+- Coding experience working in Visual Basic for Applications (VBA), Structured Query Language (SQL), and HTML/CSS within SharePoint
 - Data Analytics, Data Migration, Data Cleaning, and System Development experience
 
 ### Soft
@@ -46,9 +46,9 @@ Oshawa, ON, Canada
 ### Technical
 - Knowledge gain in building on and maintaining MySQL DBMS
 - Dealing with Database constraints and data repair
-- Web Development in PHP5, HTML5, and CSS3
+- Web Development in PHP, HTML, and CSS
 - Front-end Development in JavaScript and jQuery
-- Using Microsoft Access 2007 for data export, form & report design reference, and Visual Basic for Applications (VBA) code reference for rewrite
+- Using Microsoft Access for data export, form & report design reference, and Visual Basic for Applications (VBA) code reference for rewrite
 
 ### Soft
 - Communication with supervisor and staff on progress
