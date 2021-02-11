@@ -11,3 +11,4 @@ pom.xml
 .repl
 .nrepl-port
 *~
+.lsp/
