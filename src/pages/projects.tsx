@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
 import axios, { AxiosResponse } from "axios";
 import Layout from "../components/layout";
+import Project from "../components/project";
+import { ProjectModel } from "../utils/types";
 
-type State = {loading: boolean, projects: Object[] | null};
+type State = {loading: boolean, projects?: JSX.Element[]};
+
 const initState: State = {
-    loading: false,
-    projects: null
+    loading: false
 };
 const restInfo = {
     protocol: 'http',
@@ -21,9 +23,19 @@ export default function Projects() {
 
         axios.defaults.baseURL = `${restInfo.protocol}://${restInfo.host}${(restInfo.port) ? `:${restInfo.port}` : ''}`;
         axios.get('/projects').then((res: AxiosResponse<string>) => {
-            const projects: Object[] = JSON.parse(res.data);
+            const projects: ProjectModel[] = JSON.parse(res.data);
+            const projectElements: JSX.Element[] = projects.map((project) => 
+                <Project
+                    key={project._id}
+                    _id={project._id} 
+                    name={project.name} 
+                    keywords={project.keywords} 
+                    description={project.description}
+                    completionDate={project.completionDate}
+                />
+            );
 
-            setAppState({ loading: false, projects: projects })
+            setAppState({ loading: false, projects: projectElements })
         }).catch((err) => {
             console.error(`An error occurred:\n${err}`);
         });
@@ -31,7 +43,7 @@ export default function Projects() {
     
     return (
         <Layout pageTitle="Projects">
-            <div>{(appState.loading || appState.projects === null) ? "Loading..." : JSON.stringify(appState.projects)}</div>
+                <div className="uk-align-center uk-margin-top uk-margin-bottom">{(appState.loading || appState.projects === undefined) ? "Loading..." : appState.projects}</div>
         </Layout>
     );
 }
