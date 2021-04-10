@@ -43,7 +43,12 @@ export default function Projects() {
     
     return (
         <Layout pageTitle="Projects">
-                <div className="uk-align-center uk-margin-top uk-margin-bottom">{(appState.loading || appState.projects === undefined) ? "Loading..." : appState.projects}</div>
+                <div className="uk-margin-top uk-margin-bottom">
+                    <div className="uk-container">
+                        <h1 className="uk-heading-medium uk-heading-divider">Projects</h1>
+                        {(appState.loading || appState.projects === undefined) ? "Loading..." : appState.projects}
+                    </div>
+                </div>
         </Layout>
     );
 }
