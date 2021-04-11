@@ -31,6 +31,7 @@ export default function Projects() {
                     name={project.name} 
                     keywords={project.keywords} 
                     description={project.description}
+                    links={project.links}
                     completionDate={project.completionDate}
                 />
             );
