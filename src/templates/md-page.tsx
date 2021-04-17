@@ -11,7 +11,19 @@ import "prismjs/components/prism-typescript";
 import "prismjs/components/prism-javascript";
 import "prismjs/components/prism-csharp";
 
-export default function MdPage({ data }) {
+type MdPageProps = { 
+    data: { 
+        markdownRemark: { 
+            html: string, 
+            frontmatter: { 
+                title: string, 
+                img: string 
+            } 
+        } 
+    } 
+};
+
+export default function MdPage({ data }: MdPageProps) {
     const page = data.markdownRemark;
 
     useEffect(Prism.highlightAll);
