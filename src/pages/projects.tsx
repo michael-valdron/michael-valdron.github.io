@@ -3,6 +3,7 @@ import axios, { AxiosResponse } from "axios";
 import Layout from "../components/layout";
 import Project from "../components/project";
 import { ProjectModel } from "../utils/types";
+import Cover from "../components/cover";
 
 type State = {loading: boolean, projects?: JSX.Element[]};
 
@@ -44,9 +45,9 @@ export default function Projects() {
     
     return (
         <Layout pageTitle="Projects">
+                <Cover title="Projects" img="img/projects.jpg" />
                 <div className="uk-margin-top uk-margin-bottom">
                     <div className="uk-container">
-                        <h1 className="uk-heading-medium uk-heading-divider">Projects</h1>
                         {(appState.loading || appState.projects === undefined) ? "Loading..." : appState.projects}
                     </div>
                 </div>
