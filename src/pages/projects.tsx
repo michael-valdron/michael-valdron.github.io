@@ -16,7 +16,7 @@ const restInfo = {
     port: 3000
 };
 
-export default function Projects() {  
+export default function Projects(): JSX.Element {  
     const [appState, setAppState] = useState(initState);
 
     useEffect(() => {
