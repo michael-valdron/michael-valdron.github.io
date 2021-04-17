@@ -11,10 +11,6 @@ import "prismjs/components/prism-typescript";
 import "prismjs/components/prism-javascript";
 import "prismjs/components/prism-csharp";
 
-const coverImage = (src) => ({
-    background: `linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('${src}')`
-});
-
 export default function MdPage({ data }) {
     const page = data.markdownRemark;
 
