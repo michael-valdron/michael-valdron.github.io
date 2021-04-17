@@ -8,7 +8,9 @@ import "uikit";
 const active = (currentTitle: string, selectedTitle: string): string => 
     (currentTitle === selectedTitle) ? "uk-active" : "";
 
-export default function Layout({ pageTitle, children }): JSX.Element {
+type LayoutProps = {pageTitle: string, children?: JSX.Element | JSX.Element[]};
+
+export default function Layout({ pageTitle, children }: LayoutProps): JSX.Element {
     const data: {site: {siteMetadata: {title: string}}} = useStaticQuery(
         graphql`
             {
