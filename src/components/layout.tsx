@@ -34,7 +34,7 @@ export default function Layout({ pageTitle, children }): JSX.Element {
                     <ul className="uk-navbar-nav uk-navbar-center">
                         <li className={active(pageTitle, "Home")}><Link to="/">Home</Link></li>
                         <li className={active(pageTitle, "Projects")}><Link to="/projects">Projects</Link></li>
-                        <li className={active(pageTitle, "Research")}><Link to="/research">Research</Link></li>
+                        <li className={active(pageTitle, "Publications")}><Link to="/publications">Publications</Link></li>
                         <li className={active(pageTitle, "Interests")}><Link to="/interests">Interests</Link></li>
                     </ul>
                     </div>
