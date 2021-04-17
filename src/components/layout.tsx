@@ -45,10 +45,11 @@ export default function Layout({ pageTitle, children }): JSX.Element {
             </div>
             <div className="uk-position-relative uk-text-center uk-margin-top uk-margin-bottom">
                 <div>
-                    <a href="https://www.linkedin.com/in/michael-valdron-3b8614a5/" rel="noreferrer" target="_blank" className="uk-icon-button" uk-icon="linkedin">{""}</a>
+                    <a href="https://www.linkedin.com/in/michael-valdron-3b8614a5/" rel="noreferrer" target="_blank" className="uk-icon-button uk-button-secondary" uk-icon="linkedin">{""}</a>
                     &nbsp;
-                    <a href="https://github.com/michael-valdron" rel="noreferrer" target="_blank" className="uk-icon-button" uk-icon="github">{""}</a>
+                    <a href="https://github.com/michael-valdron" rel="noreferrer" target="_blank" className="uk-icon-button uk-button-secondary" uk-icon="github">{""}</a>
                 </div>
+                <div style={{height: '10px'}} />
                 <div>Copyright &copy; 2021 Michael Valdron</div>
             </div>
         </div>
