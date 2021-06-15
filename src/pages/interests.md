@@ -16,7 +16,9 @@ Some interests of Michael's include:
 - Mathematics
 - Quantum Computing
 
-Michael's favorite programming language lately has been Clojure:
+Michael's favorite programming language lately includes: 
+
+**Clojure**
 
 ```clojure
 (require '[clojure.string :as clo-str])
@@ -27,6 +29,8 @@ Michael's favorite programming language lately has been Clojure:
 (println msg)
 ;; => Hello World!
 ```
+
+**TypeScript**
 
 ```typescript
 function main() {
