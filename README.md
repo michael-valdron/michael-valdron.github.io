@@ -1,3 +1,5 @@
+**Deprecated** as of June 15, 2021. See [https://github.com/michael-valdron/michael-valdron.github.io](https://github.com/michael-valdron/michael-valdron.github.io) for up to date web portfolio site builder and deployed site.
+
 # Web Portfolio
 Live Website Repo: [https://github.com/michael-valdron/michael-valdron.github.io](https://github.com/michael-valdron/michael-valdron.github.io)
 
