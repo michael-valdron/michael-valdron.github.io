@@ -37,19 +37,21 @@ export default function Layout({ pageTitle, children }: LayoutProps): JSX.Elemen
                 <meta charSet="utf-8" />
                 <title>{data.site.siteMetadata.title} - {pageTitle}</title>
             </Helmet>
-            <nav className="uk-navbar uk-navbar-container" style={{height: "85px"}} uk-sticky="true" uk-navbar="true">
-                <a className="uk-navbar-toggle uk-hidden@s" href="#" uk-toggle="target: #mobile-nav">
-                    <span uk-navbar-toggle-icon="true"></span> <span className="uk-margin-small-left">Menu</span>
-                </a>
-                <div className="uk-navbar-center uk-visible@s">
-                    <ul className="uk-navbar-nav">
-                        <li className={active(pageTitle, "Home")}><Link to="/">Home</Link></li>
-                        <li className={active(pageTitle, "Projects")}><Link to="/projects">Projects</Link></li>
-                        <li className={active(pageTitle, "Publications")}><Link to="/publications">Publications</Link></li>
-                        <li className={active(pageTitle, "Interests")}><Link to="/interests">Interests</Link></li>
-                    </ul>
-                </div>
-            </nav>
+            <header>
+                <nav className="uk-navbar uk-navbar-container" style={{height: "85px"}} uk-sticky="true" uk-navbar="true">
+                    <a className="uk-navbar-toggle uk-hidden@s" href="#" uk-toggle="target: #mobile-nav">
+                        <span uk-navbar-toggle-icon="true"></span> <span className="uk-margin-small-left">Menu</span>
+                    </a>
+                    <div className="uk-navbar-center uk-visible@s">
+                        <ul className="uk-navbar-nav">
+                            <li className={active(pageTitle, "Home")}><Link to="/">Home</Link></li>
+                            <li className={active(pageTitle, "Projects")}><Link to="/projects">Projects</Link></li>
+                            <li className={active(pageTitle, "Publications")}><Link to="/publications">Publications</Link></li>
+                            <li className={active(pageTitle, "Interests")}><Link to="/interests">Interests</Link></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
             <div id="mobile-nav" uk-offcanvas="true">
                 <div className="uk-offcanvas-bar">
                     <ul className="uk-nav uk-nav-default">
