@@ -33,6 +33,7 @@
     "scripts": {
         "build": "gatsby build",
         "develop": "gatsby develop",
+        "deploy": "rm -rf docs/ && cp -r public/ docs/ && cp robots.txt CNAME docs/",
         "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
         "start": "npm run develop",
         "serve": "gatsby serve",
