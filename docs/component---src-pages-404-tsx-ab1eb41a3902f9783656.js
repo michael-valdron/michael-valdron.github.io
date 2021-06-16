@@ -1,0 +1,2 @@
+(self.webpackChunkweb_portfolio=self.webpackChunkweb_portfolio||[]).push([[218],{938:function(e,t,n){"use strict";n.r(t),n.d(t,{default:function(){return o}});var a=n(7294),r=n(7532);function o(e){var t=e.location,n="404 Error";return a.createElement(r.Z,{pageTitle:n},a.createElement("div",{className:"uk-container uk-margin-top uk-margin-bottom"},a.createElement("h1",null,n,": Page Not Found"),a.createElement("p",null,"Cannot find page '",t.pathname,"'.")))}}}]);
+//# sourceMappingURL=component---src-pages-404-tsx-ab1eb41a3902f9783656.js.map
