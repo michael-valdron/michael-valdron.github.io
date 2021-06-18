@@ -37,7 +37,7 @@ export default function Layout({ pageTitle, children }: LayoutProps): JSX.Elemen
                 <meta charSet="utf-8" />
                 <title>{data.site.siteMetadata.title} - {pageTitle}</title>
             </Helmet>
-            <header>
+            <header style={{height: "85px"}}>
                 <nav className="uk-navbar uk-navbar-container" style={{height: "85px"}} uk-sticky="true" uk-navbar="true">
                     <a className="uk-navbar-toggle uk-hidden@s" href="#" uk-toggle="target: #mobile-nav">
                         <span uk-navbar-toggle-icon="true"></span> <span className="uk-margin-small-left">Menu</span>
