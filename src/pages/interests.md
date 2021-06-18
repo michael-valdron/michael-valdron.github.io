@@ -1,6 +1,6 @@
 ---
     title: "Interests"
-    img: "img/interests.jpg"
+    img: "/img/interests.jpg"
 ---
 
 Some interests of Michael's include:

@@ -1,6 +1,6 @@
 ---
     title: "Publications"
-    img: "img/research.jpg"
+    img: "/img/research.jpg"
 ---
 
 # Bibliography

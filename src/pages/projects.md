@@ -1,6 +1,6 @@
 ---
     title: "Projects"
-    img: "img/projects.jpg"
+    img: "/img/projects.jpg"
 ---
 
 # Extending the Relational Model with Constraint Satisfaction 
