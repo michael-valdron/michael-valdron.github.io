@@ -79,7 +79,7 @@ export default function Layout({ pageTitle, children }: LayoutProps): JSX.Elemen
                         <a href="https://github.com/michael-valdron" rel="noreferrer" target="_blank" className="uk-icon-button uk-button-secondary" uk-icon="github">{""}</a>
                     </div>
                     <div style={{height: '10px'}} />
-                    <div>Copyright &copy; 2021 Michael Valdron</div>
+                    <div>Copyright &copy; 2022 Michael Valdron</div>
                 </div>
             </div>
         </div>
