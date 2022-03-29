@@ -16,7 +16,30 @@ Some interests of Michael's include:
 - Mathematics
 - Quantum Computing
 
-Michael's favorite programming language lately includes: 
+Michael's favorite programming languages lately includes:
+
+**Go**
+
+```go
+package main
+
+import (
+	"fmt"
+	"strings"
+)
+
+func main() {
+    msgArr := []string{
+        "H", "e", "l", "l", "o", 
+        " ", 
+        "W", "o", "r", "l", "d", "!"
+    }
+	msg := strings.Join(msgArr, "")
+
+	fmt.Println(msg)
+    // => Hello World!
+}
+```
 
 **Clojure**
 
@@ -24,9 +47,15 @@ Michael's favorite programming language lately includes:
 (require '[clojure.string :as clo-str])
 
 (def msg 
-    ((fn [x] (clo-str/join x)) ["H" "e" "l" "l" "o" " " "W" "o" "r" "l" "d" "!"]))
+    (-> [
+        "H" "e" "l" "l" "o" 
+        " " 
+        "W" "o" "r" "l" "d" "!"
+        ]
+        clo-str/join))
 
-(println msg)
+(defn -main []
+    (println msg))
 ;; => Hello World!
 ```
 
@@ -34,18 +63,13 @@ Michael's favorite programming language lately includes:
 
 ```typescript
 function main() {
-    console.log("Hello world!");
+    const msgArr = new Array(
+        "H", "e", "l", "l", "o", 
+        " ", 
+        "W", "o", "r", "l", "d", "!"
+    );
+
+    console.log(msgArr.join());
+    // => Hello World!
 }
 ```
-
-<!-- # Other Interests -->
-
-<!-- Some other interests Michael has is: -->
-
-<!-- - Astronomy -->
-<!-- - Quantum Mechanics -->
-<!-- - Travelling -->
-<!-- - Video Games -->
-<!-- - Arts -->
-<!-- - Photography -->
-<!-- - Meditation -->
