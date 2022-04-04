@@ -2,7 +2,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - deploy
+      - main
   repository_dispatch:
     types: [build-and-deploy]
 jobs:
@@ -31,7 +31,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4.2.5
         with:
           GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
-          BRANCH: master
-          FOLDER: .
+          BRANCH: deployment
+          FOLDER: public
           REPOSITORY_NAME: michael-valdron/michael-valdron.github.io
           CLEAN: true
