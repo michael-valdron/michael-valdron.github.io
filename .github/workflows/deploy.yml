@@ -32,6 +32,6 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
           BRANCH: master
-          FOLDER: docs
+          FOLDER: .
           REPOSITORY_NAME: michael-valdron/michael-valdron.github.io
           CLEAN: true
