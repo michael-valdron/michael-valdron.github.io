@@ -1,0 +1,37 @@
+name: Build and Deploy
+on:
+  push:
+    branches:
+      - deploy
+  repository_dispatch:
+    types: [build-and-deploy]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+
+      # Checkout repo
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Install deps
+        run: yarn install
+      - name: Build deps
+        run: yarn build
+
+      # Deploy site
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        with:
+          GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+          BRANCH: master
+          FOLDER: docs
+          REPOSITORY_NAME: michael-valdron/michael-valdron.github.io
+          CLEAN: true
