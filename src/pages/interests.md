@@ -11,12 +11,12 @@ Some interests of Michael's include:
 - Systems Development
 - Artificial Intelligence (Both Learning-based and Classical)
 - Cloud Computing
-- Operating System Customization
+- Operating Systems (GNU+Linux is a favourite)
 - Computer Building/Tinkering
 - Mathematics
 - Quantum Computing
 
-Michael's favorite programming languages lately includes:
+Michael's favourite programming languages lately includes:
 
 **Go**
 
