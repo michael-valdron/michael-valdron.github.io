@@ -9,7 +9,7 @@ export default function Home(): JSX.Element {
                 <div className="uk-position-cover uk-flex uk-flex-center uk-flex-middle">
                     <div className="uk-card uk-card-default uk-border-rounded" style={{minWidth: "250px", width: "20%"}}>
                         <div className="uk-card-media-top uk-text-center">
-                            <img className="uk-border-circle" src="https://avatars.githubusercontent.com/u/14838510" style={{ width: "60%", marginTop: 30 }} alt="Michael Valdron" />
+                            <img className="uk-border-circle" src="/img/self.jpg" style={{ width: "60%", marginTop: 30 }} alt="Michael Valdron" />
                         </div>
                         <div className="uk-card-body">
                             <h1 className="uk-card-title uk-text-center">Michael Valdron</h1>
