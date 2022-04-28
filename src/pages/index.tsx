@@ -13,13 +13,15 @@ export default function Home(): JSX.Element {
                         </div>
                         <div className="uk-card-body">
                             <h1 className="uk-card-title uk-text-center">Michael Valdron</h1>
-                            {/* <div className="uk-visible-toggle" tabIndex={-1} uk-slideshow="autoplay: true; autoplay-interval: 5000; max-height: 25;">
+                            <div className="uk-visible-toggle" tabIndex={-1} uk-slideshow="autoplay: true; autoplay-interval: 5000; max-height: 25;">
                                 <ul className="uk-slideshow-items">
-                                    <li> */}
-                                        <p className="uk-text-center">Software Engineer</p>
-                                    {/* </li>
+                                    <li>
+                                        <p className="uk-text-center">Software Engineer, Red Hat</p>
+                                        <p className="uk-text-center">Open Source Developer</p>
+                                        <p className="uk-text-center">Linux Enthusiast</p>
+                                    </li>
                                 </ul>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                 </div>
