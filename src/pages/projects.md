@@ -3,8 +3,39 @@
     img: "/img/projects.jpg"
 ---
 
-# Extending the Relational Model with Constraint Satisfaction 
-*Masters Thesis Project*
+# Current Projects
+
+## Devfiles
+**Software Engineer at Red Hat** - *Open Source Project*
+- Website: <a href="https://devfile.io" target="_blank">https://devfile.io/</a>
+- GitHub: <a href="https://github.com/devfile/" target="_blank">https://github.com/devfile/</a>
+- **Notable Contributions**:
+    - Registry Index Server
+
+### Registry Index Server
+- Hosts backend for Devfile Registry, serves REST APIs for index and devfile content as well as serving [Registry Viewer](https://github.com/devfile/registry-viewer) application.
+- GitHub: <a href="https://github.com/devfile/registry-support/tree/main/index/server/" target="_blank">https://github.com/devfile/registry-support/tree/main/index/server/</a>
+- **Technologies**:
+    - Languages: <a href="https://go.dev/" target="_blank">**Go**</a>, <a href="https://en.wikipedia.org/wiki/Shell_script" target="_blank">**Shell**</a>, <a href="https://www.redhat.com/en/topics/automation/what-is-yaml" target="_blank">**YAML**</a>, <a href="https://www.json.org/json-en.html" target="_blank">**JSON**</a>
+    - Backend Framework: <a href="https://github.com/gin-gonic/gin" target="_blank">**Gin Web Framework**</a>
+    - Deployment: <a href="https://cloud.redhat.com/learn/what-is-openshift" target="_blank">**Openshift**</a>, <a href="https://kubernetes.io/" target="_blank">**Kubernetes**</a>, <a href="https://en.wikipedia.org/wiki/Linux" target="_blank">**Linux**</a>, <a href="https://www.docker.com/" target="_target">**Docker**</a>, <a href="https://podman.io/" target="_target">**Podman**</a>
+
+## DirectoryTree .NET WinForms UserControl
+**Personal/Community** - *Open Source Project*
+- Created a needed user control for the .NET Framework which users use to select directories in form.
+- Based on the <a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualbasic.compatibility.vb6.dirlistbox?view=netframework-4.8" target="_blank">`DirListBox`</a> from **VB6**.
+- GitHub: <a href="https://github.com/michael-valdron/directory-tree" target="_blank">https://github.com/michael-valdron/directory-tree</a>
+- **Technologies**:
+    - Languages: <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank">**C#**</a>, <a href="https://www.json.org/json-en.html" target="_blank">**JSON**</a>, <a href="https://www.w3.org/XML/" target="_blank">**XML**</a>
+    - Frameworks: <a href="https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet-framework" target="_blank">**.NET Framework**</a>
+    - GUIs: <a href="https://docs.microsoft.com/en-us/dotnet/desktop/winforms/?view=netdesktop-5.0" target="_blank">**Windows Forms (WinForms)**</a>
+<!-- , <a href="https://en.wikipedia.org/wiki/Extensible_Application_Markup_Language" target="_blank">**XAML**</a> -->
+<!-- , <a href="https://docs.microsoft.com/en-us/dotnet/desktop/wpf/?view=netdesktop-5.0" target="_blank">**Windows Presentation Foundation (WPF)**</a> -->
+
+# Past Projects
+
+## Extending the Relational Model with Constraint Satisfaction 
+**Graduate Student at Ontario Tech University** - *Masters Thesis Project*
 - A framework for optimization problems to be performed with iterative debugging that ensures data quality and safety when performing data-driven decision making from databases.
 - **Two Publications**: 
     - <a href="http://ir.library.dc-uoit.ca/handle/10155/1282" target="__blank">**Ontario Tech University Thesis**</a>.
@@ -17,8 +48,8 @@
     - Data Structures: <a href="https://github.com/edn-format/edn" target="_blank">**EDN**</a>, <a href="https://developers.google.com/protocol-buffers" target="_blank">**Google Protobuf**</a>
     - Deployment: <a href="https://cloud.google.com/" target="_blank">**Google Cloud**</a>, <a href="https://www.docker.com/" target="_target">**Docker**</a>, <a href="https://en.wikipedia.org/wiki/Linux" target="_blank">**Linux**</a>
 
-# CdnPoli Twitter Analysis
-*Research Group Project*
+## CdnPoli Twitter Analysis
+**Research Assistant at Ontario Tech University** - *Research Group Project*
 - Performed analysis of the continuous `#cdnpoli` tweets to predict the standings in the Canadian 2019 election.
 - **Technologies**:
     - Interactive Environment: <a href="https://jupyter.org/" target="_blank">**IPython Notebook**</a>, <a href="https://bokeh.org/" target="_blank">**Bokeh**</a>
@@ -28,7 +59,8 @@
     - Visualization: <a href="https://bokeh.org/" target="_blank">**Bokeh**</a>, <a href="https://matplotlib.org/" target="_blank">**Matplotlib**</a>
     - Deployment: <a href="https://en.wikipedia.org/wiki/Linux" target="_blank">**Linux**</a>, <a href="https://www.docker.com/" target="_target">**Docker**</a>
 
-# Scalable Analysis of Open Data Graphs
+## Scalable Analysis of Open Data Graphs
+**Research Assistant at Ontario Tech University** -
 *Research Group Project*
 - Performed analysis on the Canadian Open Data to improve insights into open data sources.
 - Published under the **<a href="http://www.sis.pitt.edu/lersais/iri/2019/" target="_blank">2019 IEEE International Conference on Information Reuse and Integration</a>**.
@@ -39,15 +71,3 @@
     - Visualization: <a href="https://matplotlib.org/" target="_blank">**Matplotlib**</a>
     - ML/DL Frameworks: <a href="https://scikit-learn.org/stable/" target="_blank">**scikit-learn**</a>, <a href="https://www.nltk.org/" target="_blank">**NLTK**</a>
     - Deployment: <a href="https://cloud.google.com/" target="_blank">**Google Cloud**</a>, <a href="https://cloud.google.com/dataproc" target="_blank">**Dataproc**</a>
-
-# DirectoryTree .NET WinForms UserControl
-*Open Source*
-- Created a needed user control for the .NET Framework which users use to select directories in form.
-- Based on the <a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualbasic.compatibility.vb6.dirlistbox?view=netframework-4.8" target="_blank">`DirListBox`</a> from **VB6**.
-- GitHub: <a href="https://github.com/michael-valdron/directory-tree" target="_blank">https://github.com/michael-valdron/directory-tree</a>.
-- **Technologies**:
-    - Languages: <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank">**C#**</a>, <a href="https://www.json.org/json-en.html" target="_blank">**JSON**</a>, <a href="https://www.w3.org/XML/" target="_blank">**XML**</a>
-    - Frameworks: <a href="https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet-framework" target="_blank">**.NET Framework**</a>
-    - GUIs: <a href="https://docs.microsoft.com/en-us/dotnet/desktop/winforms/?view=netdesktop-5.0" target="_blank">**Windows Forms (WinForms)**</a>
-<!-- , <a href="https://en.wikipedia.org/wiki/Extensible_Application_Markup_Language" target="_blank">**XAML**</a> -->
-<!-- , <a href="https://docs.microsoft.com/en-us/dotnet/desktop/wpf/?view=netdesktop-5.0" target="_blank">**Windows Presentation Foundation (WPF)**</a> -->
