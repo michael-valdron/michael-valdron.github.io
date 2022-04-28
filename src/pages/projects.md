@@ -10,7 +10,7 @@
 - Website: <a href="https://devfile.io" target="_blank">https://devfile.io/</a>
 - GitHub: <a href="https://github.com/devfile/" target="_blank">https://github.com/devfile/</a>
 - **Notable Contributions**:
-    - [Registry Index Server](#registry-index-server)
+    - Registry Index Server
 
 ### Registry Index Server
 - Hosts backend for Devfile Registry, serves REST APIs for index and devfile content as well as serving [Registry Viewer](https://github.com/devfile/registry-viewer) application.
