@@ -17,7 +17,11 @@ export default function Home(): JSX.Element {
                                 <ul className="uk-slideshow-items">
                                     <li>
                                         <p className="uk-text-center">Software Engineer, Red Hat</p>
+                                    </li>
+                                    <li>
                                         <p className="uk-text-center">Open Source Developer</p>
+                                    </li>
+                                    <li>
                                         <p className="uk-text-center">Linux Enthusiast</p>
                                     </li>
                                 </ul>
