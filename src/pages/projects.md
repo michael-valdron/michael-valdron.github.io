@@ -13,6 +13,7 @@
     - [Registry Index Server](#registry-index-server)
 
 ### Registry Index Server
+- Hosts backend for Devfile Registry, serves REST APIs for index and devfile content as well as serving [Registry Viewer](https://github.com/devfile/registry-viewer) application.
 - GitHub: <a href="https://github.com/devfile/registry-support/tree/main/index/server/" target="_blank">https://github.com/devfile/registry-support/tree/main/index/server/</a>
 - **Technologies**:
     - Languages: <a href="https://go.dev/" target="_blank">**Go**</a>, <a href="https://en.wikipedia.org/wiki/Shell_script" target="_blank">**Shell**</a>, <a href="https://www.redhat.com/en/topics/automation/what-is-yaml" target="_blank">**YAML**</a>, <a href="https://www.json.org/json-en.html" target="_blank">**JSON**</a>
