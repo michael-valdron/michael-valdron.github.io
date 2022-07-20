@@ -2,7 +2,7 @@
             :description "Simple static site generator"
             :url "https://github.com/lacarmen/cryogen"
             :license {:name "Eclipse Public License"
-                      :url "http://www.eclipse.org/legal/epl-v10.html"}
+                      :url "http://www.eclipse.org/legal/epl-v20.html"}
             :dependencies [[org.clojure/clojure "1.8.0"]
                            [ring/ring-devel "1.7.1"]
                            [compojure "1.6.1"]
