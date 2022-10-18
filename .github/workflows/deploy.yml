@@ -10,21 +10,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Setup Node
-        uses: actions/setup-node@v1
+      - uses: actions/checkout@v3
         with:
-          node-version: 14
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      # Checkout repo
-      - name: Checkout
-        uses: actions/checkout@v2
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
         with:
-          persist-credentials: false
+          hugo-version: 'latest'
+          # extended: true
 
-      - name: Install deps
-        run: yarn install
-      - name: Build deps
-        run: yarn build
+      - name: Build
+        run: hugo --minify
+
+      - name: Copy CNAME and robots.txt
+        run: cp CNAME robots.txt public
 
       # Deploy site
       - name: Deploy

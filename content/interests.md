@@ -1,6 +1,8 @@
 ---
-    title: "Interests"
-    img: "/img/interests.jpg"
+title: "Interests"
+img: "/img/interests.jpg"
+date: "2022-10-17"
+draft: false
 ---
 
 Some interests of Michael's include:

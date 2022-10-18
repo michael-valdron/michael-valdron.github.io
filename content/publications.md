@@ -1,10 +1,9 @@
 ---
-    title: "Publications"
-    img: "/img/research.jpg"
+title: "Publications"
+img: "/img/research.jpg"
+date: "2022-10-17"
+draft: false
 ---
-
-# Bibliography
-
 
 ## Thesis Publication
 
