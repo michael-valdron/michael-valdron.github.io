@@ -1,3 +1,4 @@
 [submodule "themes/hugo-theme-nix"]
 	path = themes/hugo-theme-nix
 	url = https://github.com/michael-valdron/hugo-theme-nix.git
+	branch = main
