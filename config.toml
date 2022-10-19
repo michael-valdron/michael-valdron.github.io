@@ -1,0 +1,37 @@
+baseURL = 'https://michaelvaldron.ca/'
+languageCode = 'en-us'
+title = 'Michael Valdron'
+theme = "hugo-theme-nix"
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+
+[params]
+  Name = "Michael Valdron"
+  HeaderUsername = "michael"
+  HeaderHostname = "homepage"
+  ProfilePicture = "/img/self.jpg"
+  GithubID = "michael-valdron"
+  LinkedInID = "michael-valdron-3b8614a5"
+
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.header]]
+    identifier = "projects"
+    name = "projects"
+    url = "/projects"
+    weight = 1
+  [[menu.header]]
+    identifier = "publications"
+    name = "publications"
+    url = "/publications"
+    weight = 2
+  [[menu.header]]
+    identifier = "interests"
+    name = "interests"
+    url = "/interests"
+    weight = 3
