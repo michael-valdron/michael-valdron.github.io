@@ -1,0 +1,8 @@
+.backmatter {
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.frontmatter {
+    background: rgba(245, 245, 245, 0.9);
+}
