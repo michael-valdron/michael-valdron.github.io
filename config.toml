@@ -7,9 +7,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\
 
 [params]
   Name = "Michael Valdron"
+  Title = "Software Engineer"
   HeaderUsername = "michael"
   HeaderHostname = "homepage"
   ProfilePicture = "/img/self.jpg"
+  BackgroundImage = "/img/bg.png"
   GithubID = "michael-valdron"
   LinkedInID = "michael-valdron-3b8614a5"
 
