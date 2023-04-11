@@ -1,0 +1,40 @@
+baseURL: 'https://michaelvaldron.ca/'
+languageCode: en-us
+title: Michael Valdron
+module:
+  imports:
+    - path: github.com/michael-valdron/hugo-theme-nix
+ignoreFiles:
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _cache$
+  - \.knit\.md$
+  - \.utf8\.md$
+params:
+  Name: Michael Valdron
+  Title: Software Engineer
+  HeaderUsername: michael
+  HeaderHostname: homepage
+  ProfilePicture: /img/self.jpg
+  BackgroundImage: /img/bg.png
+  GithubID: michael-valdron
+  LinkedInID: michael-valdron-3b8614a5
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+menu:
+  header:
+    - identifier: projects
+      name: projects
+      url: /projects
+      weight: 1
+    - identifier: publications
+      name: publications
+      url: /publications
+      weight: 2
+    - identifier: interests
+      name: interests
+      url: /interests
+      weight: 3
