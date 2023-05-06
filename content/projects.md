@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 img: "/img/projects.jpg"
-date: "2023-03-13"
+date: "2023-05-05"
 draft: false
 ---
 
@@ -12,30 +12,31 @@ draft: false
 - **Website**: <a href="https://devfile.io" target="_blank">**https://devfile.io/**</a>
 - **GitHub**: <a href="https://github.com/devfile/" target="_blank">**https://github.com/devfile/**</a>
 - **Notable Contributions**:
-    - [Registry Support Services](/projects/#registry-support-services)
-    - [Registry Operator](/projects/#registry-operator)
+    - [Devfile Registry Support Services](/projects/#devfile-registry-support-services)
+    - [Devfile Registry Operator](/projects/#devfile-registry-operator)
     - [Devfile Docs](/projects/#devfile-docs)
+    - [Devfile Registry Viewer](/projects/#devfile-registry-viewer)
 
-#### Registry Support Services
-- **Registry Index Generator**
+#### Devfile Registry Support Services
+- **Devfile Registry Index Generator**
     - Devfile index schema generation component, generates schemas to store metadata on devfiles stored. 
-- **Registry Index Server**
+- **Devfile Registry Index Server**
     - Hosts backend for Devfile Registry, serves REST APIs for index and devfile content.
-- **Registry Library**
+- **Devfile Registry Library**
     - REST API Go wrapper to the Devfile Registry.
 - **Helm Chart**
     - Helm chart deployment templates for the Devfile Registry
 - **GitHub**: <a href="https://github.com/devfile/registry-support" target="_blank">**https://github.com/devfile/registry-support**</a>
 - **Languages**: <a href="https://go.dev/" target="_blank">**Go**</a>, <a href="https://en.wikipedia.org/wiki/Shell_script" target="_blank">**Shell**</a>, <a href="https://www.redhat.com/en/topics/automation/what-is-yaml" target="_blank">**YAML**</a>, <a href="https://www.json.org/json-en.html" target="_blank">**JSON**</a>
 - **Backend Framework**: <a href="https://github.com/gin-gonic/gin" target="_blank">**Gin Web Framework**</a>
-- **Deployment Environments**: <a href="https://cloud.redhat.com/learn/what-is-openshift" target="_blank">**Openshift**</a>, <a href="https://kubernetes.io/" target="_blank">**Kubernetes**</a>, <a href="https://en.wikipedia.org/wiki/Linux" target="_blank">**Linux**</a>, <a href="https://www.docker.com/" target="_target">**Docker**</a>, <a href="https://podman.io/" target="_blank">**Podman**</a>
+- **Deployment Environments**: <a href="https://cloud.redhat.com/learn/what-is-openshift" target="_blank">**Red Hat OpenShift**</a>, <a href="https://kubernetes.io/" target="_blank">**Kubernetes**</a>, <a href="https://en.wikipedia.org/wiki/Linux" target="_blank">**Linux**</a>, <a href="https://www.docker.com/" target="_target">**Docker**</a>, <a href="https://podman.io/" target="_blank">**Podman**</a>
 
-#### Registry Operator
+#### Devfile Registry Operator
 - Kubernetes operator component for the Devfile Registry
 - **GitHub**: <a href="https://github.com/devfile/registry-operator" target="_blank">**https://github.com/devfile/registry-operator**</a>
 - **Languages**: <a href="https://go.dev/" target="_blank">**Go**</a>, <a href="https://en.wikipedia.org/wiki/Shell_script" target="_blank">**Shell**</a>, <a href="https://www.redhat.com/en/topics/automation/what-is-yaml" target="_blank">**YAML**</a>, <a href="https://www.json.org/json-en.html" target="_blank">**JSON**</a>
 - **Framework**: <a href="https://sdk.operatorframework.io/" target="_blank">**Operator SDK**</a>
-- **Deployment Environments**: <a href="https://cloud.redhat.com/learn/what-is-openshift" target="_blank">**Openshift**</a>, <a href="https://kubernetes.io/" target="_blank">**Kubernetes**</a>, <a href="https://en.wikipedia.org/wiki/Linux" target="_blank">**Linux**</a>, <a href="https://www.docker.com/" target="_target">**Docker**</a>, <a href="https://podman.io/" target="_blank">**Podman**</a>
+- **Deployment Environments**: <a href="https://cloud.redhat.com/learn/what-is-openshift" target="_blank">**Red Hat OpenShift**</a>, <a href="https://kubernetes.io/" target="_blank">**Kubernetes**</a>, <a href="https://en.wikipedia.org/wiki/Linux" target="_blank">**Linux**</a>, <a href="https://www.docker.com/" target="_target">**Docker**</a>, <a href="https://podman.io/" target="_blank">**Podman**</a>
 
 #### Devfile Docs
 - Documentation pages on the <a href="https://github.com/devfile/api" target="_blank">devfile spec</a> and Devfile Registry
@@ -45,12 +46,37 @@ draft: false
 - **Frameworks**: <a href="https://nextjs.org/" target="_blank">**Next.js**</a>
 - **Libraries**: <a href="https://reactjs.org/" target="_blank">**React**</a>
 - **Generators**: <a href="https://antora.org/" target="_blank">**Antora**</a> (Old)
-- **Build Tool**: <a href="https://nx.dev/" target="_blank">**Nx**</a>
+- **Build Tool**: <a href="https://nx.dev/" target="_blank">**Nx**</a>, <a href="https://odo.dev/" target="_blank">**odo**</a>
 - **Runtime**: <a href="https://nodejs.org/" target="_blank">**Node.js**</a>
+- **Deployment Environments**: <a href="https://en.wikipedia.org/wiki/Linux" target="_blank">**Linux**</a>, <a href="https://www.docker.com/" target="_target">**Docker**</a>, <a href="https://podman.io/" target="_blank">**Podman**</a>, <a href="https://kubernetes.io/" target="_blank">**Kubernetes**</a>, <a href="https://cloud.redhat.com/learn/what-is-openshift" target="_blank">**Red Hat OpenShift**</a>
+
+#### Devfile Registry Viewer
+- UI web client for Devfile Registry
+- **Website**: <a href="https://registry.devfile.io/viewer" target="_blank">**https://registry.devfile.io/viewer**</a>
+- **GitHub**: <a href="https://github.com/devfile/devfile-web" target="_blank">**https://github.com/devfile/devfile-web**</a>
+- **Languages**: <a href="https://www.typescriptlang.org/" target="_blank">**TypeScript**</a>, <a href="https://www.redhat.com/en/topics/automation/what-is-yaml" target="_blank">**YAML**</a>, <a href="https://www.json.org/json-en.html" target="_blank">**JSON**</a>
+- **Frameworks**: <a href="https://nextjs.org/" target="_blank">**Next.js**</a>
+- **Libraries**: <a href="https://reactjs.org/" target="_blank">**React**</a>
+- **Build Tool**: <a href="https://nx.dev/" target="_blank">**Nx**</a>, <a href="https://odo.dev/" target="_blank">**odo**</a>
+- **Runtime**: <a href="https://nodejs.org/" target="_blank">**Node.js**</a>
+- **Deployment Environments**: <a href="https://en.wikipedia.org/wiki/Linux" target="_blank">**Linux**</a>, <a href="https://www.docker.com/" target="_target">**Docker**</a>, <a href="https://podman.io/" target="_blank">**Podman**</a>, <a href="https://kubernetes.io/" target="_blank">**Kubernetes**</a>, <a href="https://cloud.redhat.com/learn/what-is-openshift" target="_blank">**Red Hat OpenShift**</a>
+
+### Alizer
+**Software Engineer at Red Hat** - *Open Source Project*
+- A project information extraction utility
+- **GitHub**: <a href="https://github.com/redhat-developer/alizer" target="_blank">**https://github.com/redhat-developer/alizer**</a>
+- **Languages**: <a href="https://go.dev/" target="_blank">**Go**</a>, <a href="https://en.wikipedia.org/wiki/Shell_script" target="_blank">**Shell**</a>, <a href="https://www.redhat.com/en/topics/automation/what-is-yaml" target="_blank">**YAML**</a>, <a href="https://www.json.org/json-en.html" target="_blank">**JSON**</a>
+- **Deployment Environments**: <a href="https://en.wikipedia.org/wiki/Linux" target="_blank">**Linux**</a>
+
+### Kubernetes Client Gen
+**Community Contributor** - *Open Source Project*
+- Kubernetes client generation scripts
+- **GitHub**: <a href="https://github.com/kubernetes-client/gen" target="_blank">**https://github.com/kubernetes-client/gen**</a>
+- **Languages**: <a href="https://en.wikipedia.org/wiki/Shell_script" target="_blank">**Shell**</a>, <a href="https://www.w3.org/XML/" target="_blank">**XML**</a>
 - **Deployment Environments**: <a href="https://en.wikipedia.org/wiki/Linux" target="_blank">**Linux**</a>, <a href="https://www.docker.com/" target="_target">**Docker**</a>, <a href="https://podman.io/" target="_blank">**Podman**</a>
 
 ### DirectoryTree .NET WinForms UserControl
-**Personal/Community** - *Open Source Project*
+**Personal** - *Open Source Project*
 - Created a needed user control for the .NET Framework which users use to select directories in form.
 - Based on the <a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualbasic.compatibility.vb6.dirlistbox?view=netframework-4.8" target="_blank">`DirListBox`</a> from **VB6**.
 - **GitHub**: <a href="https://github.com/michael-valdron/directory-tree" target="_blank">**https://github.com/michael-valdron/directory-tree**</a>
