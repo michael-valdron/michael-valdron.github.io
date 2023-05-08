@@ -1,0 +1,42 @@
+schemaVersion: 2.2.0
+metadata:
+  name: michaelvaldron.ca
+  displayName: Michael Valdron Website
+  website: 'https://michaelvaldron.ca/'
+  description: Michael Valdron's personal portfolio website.
+  version: 1.0.0
+  icon: https://raw.githubusercontent.com/michael-valdron/michael-valdron.github.io/main/static/favicon.ico
+  tags:
+    - Hugo
+    - Markdown
+components:
+  - name: runner
+    container:
+      image: docker.io/michaelvaldron/hugo:latest
+      sourceMapping: /projects
+      endpoints:
+        - exposure: public
+          name: http-1313
+          protocol: http
+          targetPort: 1313
+commands:
+  - id: build
+    exec:
+      commandLine: hugo mod get
+      component: runner
+      workingDir: ${PROJECT_SOURCE}
+      hotReloadCapable: true
+      group:
+        kind: build
+        isDefault: true
+  - id: run
+    exec:
+      commandLine: hugo server --appendPort=false --baseURL={{baseURL}} 
+      component: runner
+      workingDir: ${PROJECT_SOURCE}
+      hotReloadCapable: true
+      group:
+        kind: run
+        isDefault: true
+variables:
+  baseURL: localhost:20001

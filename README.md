@@ -22,6 +22,19 @@ cd hugo
 go install
 ```
 
+## Development with odo v3
+
+```sh
+odo dev 
+```
+
+By default, the `baseURL` for Hugo is set to `localhost:20001`. If you are running more than one components at once this will need to be changed.
+For example, if the address binding will be `localhost:20002 -> 1313` then run the following:
+
+```sh
+odo dev --var baseURL=localhost:20002
+```
+
 ## Other Versions
 
 - [Version 3 (Gatsby)](https://github.com/michael-valdron/michael-valdron.github.io/tree/v3)
