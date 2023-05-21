@@ -19,6 +19,7 @@ params:
   BackgroundImage: /img/bg.png
   GithubID: michael-valdron
   LinkedInID: michael-valdron-3b8614a5
+  BitbucketID: mvaldron/workspace/projects/PROJ
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
