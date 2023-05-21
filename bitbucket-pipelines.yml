@@ -1,0 +1,9 @@
+image: michaelvaldron/hugo:latest
+
+pipelines:
+  default:
+    - parallel:
+      - step:
+          name: Build Site
+          script:
+            - hugo --minify
