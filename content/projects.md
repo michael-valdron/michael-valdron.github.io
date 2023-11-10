@@ -34,6 +34,7 @@ draft: false
 #### Devfile Registry Operator
 - Kubernetes operator component for the Devfile Registry
 - **GitHub**: <a href="https://github.com/devfile/registry-operator" target="_blank">**https://github.com/devfile/registry-operator**</a>
+- **OperatorHub**: <a href="https://operatorhub.io/operator/registry-operator" target="_blank">**https://operatorhub.io/operator/registry-operator**</a>
 - **Languages**: <a href="https://go.dev/" target="_blank">**Go**</a>, <a href="https://en.wikipedia.org/wiki/Shell_script" target="_blank">**Shell**</a>, <a href="https://www.redhat.com/en/topics/automation/what-is-yaml" target="_blank">**YAML**</a>, <a href="https://www.json.org/json-en.html" target="_blank">**JSON**</a>
 - **Framework**: <a href="https://sdk.operatorframework.io/" target="_blank">**Operator SDK**</a>
 - **Deployment Environments**: <a href="https://cloud.redhat.com/learn/what-is-openshift" target="_blank">**Red Hat OpenShift**</a>, <a href="https://kubernetes.io/" target="_blank">**Kubernetes**</a>, <a href="https://en.wikipedia.org/wiki/Linux" target="_blank">**Linux**</a>, <a href="https://www.docker.com/" target="_target">**Docker**</a>, <a href="https://podman.io/" target="_blank">**Podman**</a>
