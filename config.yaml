@@ -18,6 +18,7 @@ params:
   ProfilePicture: /img/self.jpg
   BackgroundImage: /img/bg.png
   GithubID: michael-valdron
+  GitlabID: mvaldron
   LinkedInID: michael-valdron-3b8614a5
   BitbucketID: mvaldron/workspace/projects/PROJ
   GnuPGFingerprint: F8193F446E4075EE59826A50CDFF1776617540F8
