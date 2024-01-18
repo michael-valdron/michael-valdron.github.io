@@ -1,7 +1,7 @@
 ---
 title: "Interests"
 img: "/img/interests.jpg"
-date: "2022-10-17"
+date: "2024-01-17"
 draft: false
 ---
 
@@ -10,13 +10,9 @@ Some interests of Michael's include:
 - Programming 
 - Web Development (Frontend and Backend)
 - Application Development
-- Systems Development
-- Artificial Intelligence (Both Learning-based and Classical)
 - Cloud Computing
 - Operating Systems (GNU+Linux is a favourite)
 - Computer Building/Tinkering
-- Mathematics
-- Quantum Computing
 
 Michael's favourite programming languages lately includes:
 
