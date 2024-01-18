@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 img: "/img/projects.jpg"
-date: "2023-05-05"
+date: "2024-01-17"
 draft: false
 ---
 
@@ -16,6 +16,7 @@ draft: false
     - [Devfile Registry Operator](/projects/#devfile-registry-operator)
     - [Devfile Docs](/projects/#devfile-docs)
     - [Devfile Registry Viewer](/projects/#devfile-registry-viewer)
+    - [Devfile Alizer](/projects/#devfile-alizer)
 
 #### Devfile Registry Support Services
 - **Devfile Registry Index Generator**
@@ -29,7 +30,7 @@ draft: false
 - **GitHub**: <a href="https://github.com/devfile/registry-support" target="_blank">**https://github.com/devfile/registry-support**</a>
 - **Languages**: <a href="https://go.dev/" target="_blank">**Go**</a>, <a href="https://en.wikipedia.org/wiki/Shell_script" target="_blank">**Shell**</a>, <a href="https://www.redhat.com/en/topics/automation/what-is-yaml" target="_blank">**YAML**</a>, <a href="https://www.json.org/json-en.html" target="_blank">**JSON**</a>
 - **Backend Framework**: <a href="https://github.com/gin-gonic/gin" target="_blank">**Gin Web Framework**</a>
-- **Deployment Environments**: <a href="https://cloud.redhat.com/learn/what-is-openshift" target="_blank">**Red Hat OpenShift**</a>, <a href="https://kubernetes.io/" target="_blank">**Kubernetes**</a>, <a href="https://en.wikipedia.org/wiki/Linux" target="_blank">**Linux**</a>, <a href="https://www.docker.com/" target="_target">**Docker**</a>, <a href="https://podman.io/" target="_blank">**Podman**</a>
+- **Deployment Environments**: <a href="https://cloud.redhat.com/learn/what-is-openshift" target="_blank">**Red Hat OpenShift**</a>, <a href="https://kubernetes.io/" target="_blank">**Kubernetes**</a>, <a href="https://en.wikipedia.org/wiki/Linux" target="_blank">**Linux**</a>, <a href="https://www.docker.com/" target="_target">**Docker**</a>, <a href="https://podman.io/" target="_blank">**Podman**</a>, <a href="https://odo.dev/" target="_blank">**odo**</a>
 
 #### Devfile Registry Operator
 - Kubernetes operator component for the Devfile Registry
@@ -62,10 +63,9 @@ draft: false
 - **Runtime**: <a href="https://nodejs.org/" target="_blank">**Node.js**</a>
 - **Deployment Environments**: <a href="https://en.wikipedia.org/wiki/Linux" target="_blank">**Linux**</a>, <a href="https://www.docker.com/" target="_target">**Docker**</a>, <a href="https://podman.io/" target="_blank">**Podman**</a>, <a href="https://kubernetes.io/" target="_blank">**Kubernetes**</a>, <a href="https://cloud.redhat.com/learn/what-is-openshift" target="_blank">**Red Hat OpenShift**</a>
 
-### Alizer
-**Software Engineer at Red Hat** - *Open Source Project*
+#### Devfile Alizer
 - A project information extraction utility
-- **GitHub**: <a href="https://github.com/redhat-developer/alizer" target="_blank">**https://github.com/redhat-developer/alizer**</a>
+- **GitHub**: <a href="https://github.com/devfile/alizer" target="_blank">**https://github.com/devfile/alizer**</a> (Current), <a href="https://github.com/redhat-developer/alizer" target="_blank">**https://github.com/redhat-developer/alizer**</a> (Old)
 - **Languages**: <a href="https://go.dev/" target="_blank">**Go**</a>, <a href="https://en.wikipedia.org/wiki/Shell_script" target="_blank">**Shell**</a>, <a href="https://www.redhat.com/en/topics/automation/what-is-yaml" target="_blank">**YAML**</a>, <a href="https://www.json.org/json-en.html" target="_blank">**JSON**</a>
 - **Deployment Environments**: <a href="https://en.wikipedia.org/wiki/Linux" target="_blank">**Linux**</a>
 
