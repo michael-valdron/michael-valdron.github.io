@@ -3,6 +3,7 @@
 <div id="header">
 
 [![GPLv3 License](https://img.shields.io/badge/license-GPLv3-blue)](LICENSE)
+[![Build and Deploy](https://github.com/michael-valdron/michael-valdron.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/michael-valdron/michael-valdron.github.io/actions/workflows/deploy.yml)
 
 </div>
 
@@ -12,7 +13,7 @@ My personal portfolio website.
 
 This version of the website is generated using the [Hugo](https://gohugo.io/) static generator. 
 
-### Install Hugo
+### Install Hugo CLI
 
 Hugo CLI can be installed by running the following:
 
@@ -22,7 +23,15 @@ cd hugo
 go install
 ```
 
-## Development with odo v3
+## Development
+
+### Hugo CLI
+
+```sh
+hugo server -D
+```
+
+### odo v3
 
 ```sh
 odo dev 
@@ -34,6 +43,12 @@ For example, if the address binding will be `localhost:20002 -> 1313` then run t
 ```sh
 odo dev --var baseURL=localhost:20002
 ```
+
+## Publishing
+
+Run `hugo --minify --baseURL=<base-url-of-web-server>`, then copy all content generated under `public` to any target web directory of a web server.
+
+To test out that this content is viewable from a web server, one can use `hugo --minify --baseURL=http://localhost:8000` followed by `python -m http.server --directory ./public`.
 
 ## Other Versions
 
