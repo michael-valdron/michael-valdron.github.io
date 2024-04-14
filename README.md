@@ -1,13 +1,9 @@
 # Web Portfolio
 
-<div id="header">
-
 [![Go 1.21](https://img.shields.io/badge/1.21-blue?logo=go&labelColor=gray)](https://go.dev/doc/go1.21)
 [![Hugo Latest](https://img.shields.io/badge/latest-cb4879?logo=hugo&labelColor=gray)](https://github.com/gohugoio/hugo/releases/latest)
 [![GPLv3 License](https://img.shields.io/badge/license-GPLv3-green)](LICENSE)
 [![Build and Deploy](https://github.com/michael-valdron/michael-valdron.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/michael-valdron/michael-valdron.github.io/actions/workflows/deploy.yml)
-
-</div>
 
 My personal portfolio website.
 
