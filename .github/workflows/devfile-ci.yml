@@ -1,0 +1,41 @@
+name: Devfile
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches: [main]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  odov3:
+    name: Check odo V3 dev
+    runs-on: ubuntu-latest
+    env:
+      ODOV3_VERSION: "3.15.0"
+      PODMAN_CMD: "" # Forces odo to use docker
+      ODO_DISABLE_TELEMETRY: true
+      ODO_PUSH_IMAGES: false
+    steps:
+      - name: Check out code
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+      - name: Install odo v3
+        uses: redhat-actions/openshift-tools-installer@2de9a80cf012ad0601021515481d433b91ef8fd5 # v1
+        with:
+          odo: ${{ env.ODOV3_VERSION }}
+      - name: Setup Minikube
+        uses: manusa/actions-setup-minikube@e2f60d2f9e42413a916781a805284e79ccabaf54 # v2.10.0
+        with:
+          minikube version: 'v1.32.0'
+          kubernetes version: 'v1.26.3'
+          driver: 'docker'
+          github token: ${{ secrets.GITHUB_TOKEN }}
+          start args: '--memory 4096 --cpus 2'
+      - name: Check odo version
+        run: odo version      
+      - name: Check if 'odo dev' is working
+        run: odo dev
