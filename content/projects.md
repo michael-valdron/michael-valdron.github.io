@@ -1,13 +1,13 @@
 ---
 title: "Projects"
 img: "/img/projects.jpg"
-date: "2024-01-17"
+date: "2024-04-18"
 draft: false
 ---
 
 ## Current Projects
 
-### Devfiles
+### Devfile
 **Software Engineer at Red Hat** - *Open Source Project*
 - **Website**: <a href="https://devfile.io" target="_blank">**https://devfile.io/**</a>
 - **GitHub**: <a href="https://github.com/devfile/" target="_blank">**https://github.com/devfile/**</a>
@@ -17,6 +17,45 @@ draft: false
     - [Devfile Docs](/projects/#devfile-docs)
     - [Devfile Registry Viewer](/projects/#devfile-registry-viewer)
     - [Devfile Alizer](/projects/#devfile-alizer)
+
+**Example**
+
+```yaml
+schemaVersion: 2.2.0
+metadata:
+    name: node
+    displayName: Node.js
+    tags:
+        - NodeJS
+        - JS
+components:
+    - name: runtime
+      container:
+          image: node
+          sourceMapping: /projects
+          endpoints:
+              - exposure: public
+                name: http-3000
+                protocol: http
+                targetPort: 3000
+commands:
+    - id: install
+      exec:
+          component: runtime
+          commandLine: npm install
+          workingDir: ${PROJECT_SOURCE}
+          group:
+              kind: build
+              isDefault: true
+    - id: run
+      exec:
+          component: runtime
+          commandLine: npm start
+          workingDir: ${PROJECT_SOURCE}
+          group:
+              kind: run
+              isDefault: true
+```
 
 #### Devfile Registry Support Services
 - **Devfile Registry Index Generator**
