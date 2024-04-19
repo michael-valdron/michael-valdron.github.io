@@ -30,7 +30,7 @@ jobs:
 
       # Deploy site
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@a1ea191d508feb8485aceba848389d49f80ca2dc # v4.4.3
+        uses: JamesIves/github-pages-deploy-action@ec9c88baef04b842ca6f0a132fd61c762aa6c1b0 # v4.6.0
         with:
           GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
           BRANCH: github-pages
