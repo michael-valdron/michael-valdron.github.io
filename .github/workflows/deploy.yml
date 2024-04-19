@@ -33,6 +33,8 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@ec9c88baef04b842ca6f0a132fd61c762aa6c1b0 # v4.6.0
         with:
           token: ${{ secrets.DEPLOY_TOKEN }}
+          git-config-email: ${{ secrets.GIT_CONFIG_EMAIL }}
+          git-config-name: ${{ secrets.GIT_CONFIG_NAME }}
           branch: github-pages
           folder: public
           repository-name: michael-valdron/michael-valdron.github.io
