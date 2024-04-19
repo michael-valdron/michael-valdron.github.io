@@ -126,6 +126,14 @@ commands:
 - **Languages**: <a href="https://en.wikipedia.org/wiki/Shell_script" target="_blank">**Shell**</a>, <a href="https://www.w3.org/XML/" target="_blank">**XML**</a>
 - **Deployment Environments**: <a href="https://en.wikipedia.org/wiki/Linux" target="_blank">**Linux**</a>, <a href="https://www.docker.com/" target="_target">**Docker**</a>, <a href="https://podman.io/" target="_blank">**Podman**</a>
 
+### TeachingCity - Economic Impact And Recovery With City of Oshawa
+**Research Associate at Ontario Tech University** - *Research Group Project*
+
+- **Website**: <a href="http://db.science.uoit.ca/share/teachingcity/intro.html" target="_blank">**http://db.science.uoit.ca/share/teachingcity/intro.html**</a>
+- **Interactive Environment**: <a href="https://jupyter.org/" target="_blank">**IPython Notebook/Kernels**</a>
+- **Languages**: <a href="https://python.org/" target="_blank">**Python**</a>
+- **Visualization**: <a href="https://matplotlib.org/" target="_blank">**Matplotlib**</a>
+
 ### Extending the Relational Model with Constraint Satisfaction 
 **Graduate Student at Ontario Tech University** - *Masters Thesis Project*
 - A framework for optimization problems to be performed with iterative debugging that ensures data quality and safety when performing data-driven decision making from databases.
