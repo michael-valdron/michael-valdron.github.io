@@ -69,13 +69,6 @@ draft: false
 - **Languages**: <a href="https://go.dev/" target="_blank">**Go**</a>, <a href="https://en.wikipedia.org/wiki/Shell_script" target="_blank">**Shell**</a>, <a href="https://www.redhat.com/en/topics/automation/what-is-yaml" target="_blank">**YAML**</a>, <a href="https://www.json.org/json-en.html" target="_blank">**JSON**</a>
 - **Deployment Environments**: <a href="https://en.wikipedia.org/wiki/Linux" target="_blank">**Linux**</a>
 
-### Kubernetes Client Gen
-**Community Contributor** - *Open Source Project*
-- Kubernetes client generation scripts
-- **GitHub**: <a href="https://github.com/kubernetes-client/gen" target="_blank">**https://github.com/kubernetes-client/gen**</a>
-- **Languages**: <a href="https://en.wikipedia.org/wiki/Shell_script" target="_blank">**Shell**</a>, <a href="https://www.w3.org/XML/" target="_blank">**XML**</a>
-- **Deployment Environments**: <a href="https://en.wikipedia.org/wiki/Linux" target="_blank">**Linux**</a>, <a href="https://www.docker.com/" target="_target">**Docker**</a>, <a href="https://podman.io/" target="_blank">**Podman**</a>
-
 ### DirectoryTree .NET WinForms UserControl
 **Personal** - *Open Source Project*
 - Created a needed user control for the .NET Framework which users use to select directories in form.
@@ -86,6 +79,13 @@ draft: false
 - **GUIs**: <a href="https://docs.microsoft.com/en-us/dotnet/desktop/winforms/?view=netdesktop-5.0" target="_blank">**Windows Forms (WinForms)**</a>
 
 ## Past Projects
+
+### Kubernetes Client Gen
+**Community Contributor** - *Open Source Project*
+- Kubernetes client generation scripts
+- **GitHub**: <a href="https://github.com/kubernetes-client/gen" target="_blank">**https://github.com/kubernetes-client/gen**</a>
+- **Languages**: <a href="https://en.wikipedia.org/wiki/Shell_script" target="_blank">**Shell**</a>, <a href="https://www.w3.org/XML/" target="_blank">**XML**</a>
+- **Deployment Environments**: <a href="https://en.wikipedia.org/wiki/Linux" target="_blank">**Linux**</a>, <a href="https://www.docker.com/" target="_target">**Docker**</a>, <a href="https://podman.io/" target="_blank">**Podman**</a>
 
 ### Extending the Relational Model with Constraint Satisfaction 
 **Graduate Student at Ontario Tech University** - *Masters Thesis Project*
