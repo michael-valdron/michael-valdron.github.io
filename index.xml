@@ -1,7 +1,77 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Michael Valdron</title><link>https://michaelvaldron.ca/</link><description>Recent content on Michael Valdron</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 18 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://michaelvaldron.ca/index.xml" rel="self" type="application/rss+xml"/><item><title>Projects</title><link>https://michaelvaldron.ca/projects/</link><pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate><guid>https://michaelvaldron.ca/projects/</guid><description>Current Projects Devfile Software Engineer at Red Hat - Open Source Project
-Website: https://devfile.io/ GitHub: https://github.com/devfile/ Notable Contributions: Devfile Registry Support Services Devfile Registry Operator Devfile Docs Devfile Registry Viewer Devfile Alizer Example
-schemaVersion: 2.3.0 metadata: name: node displayName: Node.js tags: - NodeJS - JS components: - name: runtime container: image: node sourceMapping: /projects endpoints: - exposure: public name: http-3000 protocol: http targetPort: 3000 Devfile Registry Support Services Devfile Registry Index Generator Devfile index schema generation component, generates schemas to store metadata on devfiles stored.</description></item><item><title>Interests</title><link>https://michaelvaldron.ca/interests/</link><pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate><guid>https://michaelvaldron.ca/interests/</guid><description>Some interests of Michael&amp;rsquo;s include:
-Programming Web Development (Frontend and Backend) Application Development Cloud Computing Operating Systems (GNU+Linux is a favourite) Computer Building/Tinkering Michael&amp;rsquo;s favourite programming languages lately includes:
-Go
-package main import ( &amp;#34;fmt&amp;#34; &amp;#34;strings&amp;#34; ) func main() { msgArr := []string{ &amp;#34;H&amp;#34;, &amp;#34;e&amp;#34;, &amp;#34;l&amp;#34;, &amp;#34;l&amp;#34;, &amp;#34;o&amp;#34;, &amp;#34; &amp;#34;, &amp;#34;W&amp;#34;, &amp;#34;o&amp;#34;, &amp;#34;r&amp;#34;, &amp;#34;l&amp;#34;, &amp;#34;d&amp;#34;, &amp;#34;!&amp;#34; } msg := strings.Join(msgArr, &amp;#34;&amp;#34;) fmt.Println(msg) // =&amp;gt; Hello World! } Clojure
-(require &amp;#39;[clojure.string :as clo-str]) (def msg (-&amp;gt; [ &amp;#34;H&amp;#34; &amp;#34;e&amp;#34; &amp;#34;l&amp;#34; &amp;#34;l&amp;#34; &amp;#34;o&amp;#34; &amp;#34; &amp;#34; &amp;#34;W&amp;#34; &amp;#34;o&amp;#34; &amp;#34;r&amp;#34; &amp;#34;l&amp;#34; &amp;#34;d&amp;#34; &amp;#34;!</description></item><item><title>Publications</title><link>https://michaelvaldron.ca/publications/</link><pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate><guid>https://michaelvaldron.ca/publications/</guid><description>Thesis Publication Valdron, M. J.: Extending the relational model with constraint satisfaction, http://ir.library.dc-uoit.ca/handle/10155/1282, (2021). Conference Proceedings Valdron, M., Pu, K. Q.: Data Driven Relational Constraint Programming. In: 2020 IEEE 21st International Conference on Information Reuse and Integration for Data Science (IRI). pp. 156–163 (2020). https://doi.org/10.1109/IRI49571.2020.00030. Stoica, A., Valdron, M., Pu, K.: Scalable Analysis of Open Data Graphs. In: 2019 IEEE 20th International Conference on Information Reuse and Integration for Data Science (IRI).</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Michael Valdron</title><link>https://michaelvaldron.ca/</link><description>Recent content on Michael Valdron</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 18 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://michaelvaldron.ca/index.xml" rel="self" type="application/rss+xml"/><item><title>Projects</title><link>https://michaelvaldron.ca/projects/</link><pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate><guid>https://michaelvaldron.ca/projects/</guid><description>&lt;h2 id="current-projects">Current Projects&lt;/h2>
+&lt;h3 id="devfile">Devfile&lt;/h3>
+&lt;p>&lt;strong>Software Engineer at Red Hat&lt;/strong> - &lt;em>Open Source Project&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Website&lt;/strong>: &lt;a href="https://devfile.io" target="_blank">&lt;strong>&lt;a href="https://devfile.io/">https://devfile.io/&lt;/a>&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>GitHub&lt;/strong>: &lt;a href="https://github.com/devfile/" target="_blank">&lt;strong>&lt;a href="https://github.com/devfile/">https://github.com/devfile/&lt;/a>&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Notable Contributions&lt;/strong>:
+&lt;ul>
+&lt;li>&lt;a href="https://michaelvaldron.ca/projects/#devfile-registry-support-services">Devfile Registry Support Services&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://michaelvaldron.ca/projects/#devfile-registry-operator">Devfile Registry Operator&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://michaelvaldron.ca/projects/#devfile-docs">Devfile Docs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://michaelvaldron.ca/projects/#devfile-registry-viewer">Devfile Registry Viewer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://michaelvaldron.ca/projects/#devfile-alizer">Devfile Alizer&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Example&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">schemaVersion&lt;/span>: &lt;span style="color:#ae81ff">2.3.0&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">metadata&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">node&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">displayName&lt;/span>: &lt;span style="color:#ae81ff">Node.js&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">tags&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#ae81ff">NodeJS&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#ae81ff">JS&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">components&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">runtime&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">container&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">image&lt;/span>: &lt;span style="color:#ae81ff">node&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">sourceMapping&lt;/span>: &lt;span style="color:#ae81ff">/projects&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">endpoints&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#f92672">exposure&lt;/span>: &lt;span style="color:#ae81ff">public&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">http-3000&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">protocol&lt;/span>: &lt;span style="color:#ae81ff">http&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">targetPort&lt;/span>: &lt;span style="color:#ae81ff">3000&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Interests</title><link>https://michaelvaldron.ca/interests/</link><pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate><guid>https://michaelvaldron.ca/interests/</guid><description>&lt;p>Some interests of Michael&amp;rsquo;s include:&lt;/p>
+&lt;ul>
+&lt;li>Programming&lt;/li>
+&lt;li>Web Development (Frontend and Backend)&lt;/li>
+&lt;li>Application Development&lt;/li>
+&lt;li>Cloud Computing&lt;/li>
+&lt;li>Operating Systems (GNU+Linux is a favourite)&lt;/li>
+&lt;li>Computer Building/Tinkering&lt;/li>
+&lt;/ul>
+&lt;p>Michael&amp;rsquo;s favourite programming languages lately includes:&lt;/p>
+&lt;p>&lt;strong>Go&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">package&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> (
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>	&lt;span style="color:#e6db74">&amp;#34;fmt&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>	&lt;span style="color:#e6db74">&amp;#34;strings&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">func&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">msgArr&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> []&lt;span style="color:#66d9ef">string&lt;/span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;H&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;e&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;l&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;l&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;o&amp;#34;&lt;/span>, 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34; &amp;#34;&lt;/span>, 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;W&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;o&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;r&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;l&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;d&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;!&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>	&lt;span style="color:#a6e22e">msg&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#a6e22e">strings&lt;/span>.&lt;span style="color:#a6e22e">Join&lt;/span>(&lt;span style="color:#a6e22e">msgArr&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>	&lt;span style="color:#a6e22e">fmt&lt;/span>.&lt;span style="color:#a6e22e">Println&lt;/span>(&lt;span style="color:#a6e22e">msg&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// =&amp;gt; Hello World!
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Publications</title><link>https://michaelvaldron.ca/publications/</link><pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate><guid>https://michaelvaldron.ca/publications/</guid><description>&lt;h2 id="thesis-publication">Thesis Publication&lt;/h2>
+&lt;ol>
+&lt;li>Valdron, M. J.: Extending the relational model with constraint satisfaction, &lt;a href="http://ir.library.dc-uoit.ca/handle/10155/1282" target="__blank">&lt;a href="http://ir.library.dc-uoit.ca/handle/10155/1282">http://ir.library.dc-uoit.ca/handle/10155/1282&lt;/a>&lt;/a>, (2021).&lt;/li>
+&lt;/ol>
+&lt;h2 id="conference-proceedings">Conference Proceedings&lt;/h2>
+&lt;ol start="2">
+&lt;li>Valdron, M., Pu, K. Q.: Data Driven Relational Constraint Programming. In: 2020 IEEE 21st International Conference on Information Reuse and Integration for Data Science (IRI). pp. 156–163 (2020). &lt;a href="https://doi.org/10.1109/IRI49571.2020.00030" target="__blank">&lt;a href="https://doi.org/10.1109/IRI49571.2020.00030">https://doi.org/10.1109/IRI49571.2020.00030&lt;/a>&lt;/a>.&lt;/li>
+&lt;li>Stoica, A., Valdron, M., Pu, K.: Scalable Analysis of Open Data Graphs. In: 2019 IEEE 20th International Conference on Information Reuse and Integration for Data Science (IRI). pp. 334–341. IEEE, Los Angeles, CA, USA (2019). &lt;a href="https://doi.org/10.1109/IRI.2019.00059" target="__blank">&lt;a href="https://doi.org/10.1109/IRI.2019.00059">https://doi.org/10.1109/IRI.2019.00059&lt;/a>&lt;/a>.&lt;/li>
+&lt;/ol>
+&lt;h1 id="links">Links&lt;/h1>
+&lt;ul>
+&lt;li>&lt;a href="http://db.science.uoit.ca/" target="__blank">Ontario Tech University - DBResearch Group&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://uoit.academia.edu/MichaelValdron" target="__blank">Academia.edu - Michael Valdron&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>
