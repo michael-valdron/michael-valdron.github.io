@@ -32,7 +32,76 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">http-3000&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">protocol&lt;/span>: &lt;span style="color:#ae81ff">http&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">targetPort&lt;/span>: &lt;span style="color:#ae81ff">3000&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Interests</title><link>https://michaelvaldron.ca/interests/</link><pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate><guid>https://michaelvaldron.ca/interests/</guid><description>&lt;p>Some interests of Michael&amp;rsquo;s include:&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="devfile-registry-support-services">Devfile Registry Support Services&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Devfile Registry Index Generator&lt;/strong>
+&lt;ul>
+&lt;li>Devfile index schema generation component, generates schemas to store metadata on devfiles stored.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Devfile Registry Index Server&lt;/strong>
+&lt;ul>
+&lt;li>Hosts backend for Devfile Registry, serves REST APIs for index and devfile content.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Devfile Registry Library&lt;/strong>
+&lt;ul>
+&lt;li>REST API Go wrapper to the Devfile Registry.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Helm Chart&lt;/strong>
+&lt;ul>
+&lt;li>Helm chart deployment templates for the Devfile Registry&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>GitHub&lt;/strong>: &lt;a href="https://github.com/devfile/registry-support" target="_blank">&lt;strong>&lt;a href="https://github.com/devfile/registry-support">https://github.com/devfile/registry-support&lt;/a>&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Languages&lt;/strong>: &lt;a href="https://go.dev/" target="_blank">&lt;strong>Go&lt;/strong>&lt;/a>, &lt;a href="https://en.wikipedia.org/wiki/Shell_script" target="_blank">&lt;strong>Shell&lt;/strong>&lt;/a>, &lt;a href="https://www.redhat.com/en/topics/automation/what-is-yaml" target="_blank">&lt;strong>YAML&lt;/strong>&lt;/a>, &lt;a href="https://www.json.org/json-en.html" target="_blank">&lt;strong>JSON&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Backend Framework&lt;/strong>: &lt;a href="https://github.com/gin-gonic/gin" target="_blank">&lt;strong>Gin Web Framework&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Deployment Environments&lt;/strong>: &lt;a href="https://cloud.redhat.com/learn/what-is-openshift" target="_blank">&lt;strong>Red Hat OpenShift&lt;/strong>&lt;/a>, &lt;a href="https://kubernetes.io/" target="_blank">&lt;strong>Kubernetes&lt;/strong>&lt;/a>, &lt;a href="https://en.wikipedia.org/wiki/Linux" target="_blank">&lt;strong>Linux&lt;/strong>&lt;/a>, &lt;a href="https://www.docker.com/" target="_target">&lt;strong>Docker&lt;/strong>&lt;/a>, &lt;a href="https://podman.io/" target="_blank">&lt;strong>Podman&lt;/strong>&lt;/a>, &lt;a href="https://odo.dev/" target="_blank">&lt;strong>odo&lt;/strong>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h4 id="devfile-registry-operator">Devfile Registry Operator&lt;/h4>
+&lt;ul>
+&lt;li>Kubernetes operator component for the Devfile Registry&lt;/li>
+&lt;li>&lt;strong>GitHub&lt;/strong>: &lt;a href="https://github.com/devfile/registry-operator" target="_blank">&lt;strong>&lt;a href="https://github.com/devfile/registry-operator">https://github.com/devfile/registry-operator&lt;/a>&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>OperatorHub&lt;/strong>: &lt;a href="https://operatorhub.io/operator/registry-operator" target="_blank">&lt;strong>&lt;a href="https://operatorhub.io/operator/registry-operator">https://operatorhub.io/operator/registry-operator&lt;/a>&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Languages&lt;/strong>: &lt;a href="https://go.dev/" target="_blank">&lt;strong>Go&lt;/strong>&lt;/a>, &lt;a href="https://en.wikipedia.org/wiki/Shell_script" target="_blank">&lt;strong>Shell&lt;/strong>&lt;/a>, &lt;a href="https://www.redhat.com/en/topics/automation/what-is-yaml" target="_blank">&lt;strong>YAML&lt;/strong>&lt;/a>, &lt;a href="https://www.json.org/json-en.html" target="_blank">&lt;strong>JSON&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Framework&lt;/strong>: &lt;a href="https://sdk.operatorframework.io/" target="_blank">&lt;strong>Operator SDK&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Deployment Environments&lt;/strong>: &lt;a href="https://cloud.redhat.com/learn/what-is-openshift" target="_blank">&lt;strong>Red Hat OpenShift&lt;/strong>&lt;/a>, &lt;a href="https://kubernetes.io/" target="_blank">&lt;strong>Kubernetes&lt;/strong>&lt;/a>, &lt;a href="https://en.wikipedia.org/wiki/Linux" target="_blank">&lt;strong>Linux&lt;/strong>&lt;/a>, &lt;a href="https://www.docker.com/" target="_target">&lt;strong>Docker&lt;/strong>&lt;/a>, &lt;a href="https://podman.io/" target="_blank">&lt;strong>Podman&lt;/strong>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h4 id="devfile-docs">Devfile Docs&lt;/h4>
+&lt;ul>
+&lt;li>Documentation pages on the &lt;a href="https://github.com/devfile/api" target="_blank">devfile spec&lt;/a> and Devfile Registry&lt;/li>
+&lt;li>&lt;strong>Website&lt;/strong>: &lt;a href="https://devfile.io/docs" target="_blank">&lt;strong>&lt;a href="https://devfile.io/docs">https://devfile.io/docs&lt;/a>&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>GitHub&lt;/strong>: &lt;a href="https://github.com/devfile/devfile-web" target="_blank">&lt;strong>&lt;a href="https://github.com/devfile/devfile-web">https://github.com/devfile/devfile-web&lt;/a>&lt;/strong>&lt;/a> (Current), &lt;a href="https://github.com/devfile/docs" target="_blank">&lt;strong>&lt;a href="https://github.com/devfile/docs">https://github.com/devfile/docs&lt;/a>&lt;/strong>&lt;/a> (Old)&lt;/li>
+&lt;li>&lt;strong>Languages&lt;/strong>: &lt;a href="https://daringfireball.net/projects/markdown/" target="_blank">&lt;strong>Markdown&lt;/strong>&lt;/a>, &lt;a href="https://www.typescriptlang.org/" target="_blank">&lt;strong>TypeScript&lt;/strong>&lt;/a>, &lt;a href="https://www.redhat.com/en/topics/automation/what-is-yaml" target="_blank">&lt;strong>YAML&lt;/strong>&lt;/a>, &lt;a href="https://www.json.org/json-en.html" target="_blank">&lt;strong>JSON&lt;/strong>&lt;/a>, &lt;a href="https://asciidoc.org/" target="_blank">&lt;strong>AsciiDoc&lt;/strong>&lt;/a> (Old)&lt;/li>
+&lt;li>&lt;strong>Frameworks&lt;/strong>: &lt;a href="https://nextjs.org/" target="_blank">&lt;strong>Next.js&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Libraries&lt;/strong>: &lt;a href="https://reactjs.org/" target="_blank">&lt;strong>React&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Generators&lt;/strong>: &lt;a href="https://antora.org/" target="_blank">&lt;strong>Antora&lt;/strong>&lt;/a> (Old)&lt;/li>
+&lt;li>&lt;strong>Build Tool&lt;/strong>: &lt;a href="https://nx.dev/" target="_blank">&lt;strong>Nx&lt;/strong>&lt;/a>, &lt;a href="https://odo.dev/" target="_blank">&lt;strong>odo&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Runtime&lt;/strong>: &lt;a href="https://nodejs.org/" target="_blank">&lt;strong>Node.js&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Deployment Environments&lt;/strong>: &lt;a href="https://en.wikipedia.org/wiki/Linux" target="_blank">&lt;strong>Linux&lt;/strong>&lt;/a>, &lt;a href="https://www.docker.com/" target="_target">&lt;strong>Docker&lt;/strong>&lt;/a>, &lt;a href="https://podman.io/" target="_blank">&lt;strong>Podman&lt;/strong>&lt;/a>, &lt;a href="https://kubernetes.io/" target="_blank">&lt;strong>Kubernetes&lt;/strong>&lt;/a>, &lt;a href="https://cloud.redhat.com/learn/what-is-openshift" target="_blank">&lt;strong>Red Hat OpenShift&lt;/strong>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h4 id="devfile-registry-viewer">Devfile Registry Viewer&lt;/h4>
+&lt;ul>
+&lt;li>UI web client for Devfile Registry&lt;/li>
+&lt;li>&lt;strong>Website&lt;/strong>: &lt;a href="https://registry.devfile.io/viewer" target="_blank">&lt;strong>&lt;a href="https://registry.devfile.io/viewer">https://registry.devfile.io/viewer&lt;/a>&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>GitHub&lt;/strong>: &lt;a href="https://github.com/devfile/devfile-web" target="_blank">&lt;strong>&lt;a href="https://github.com/devfile/devfile-web">https://github.com/devfile/devfile-web&lt;/a>&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Languages&lt;/strong>: &lt;a href="https://www.typescriptlang.org/" target="_blank">&lt;strong>TypeScript&lt;/strong>&lt;/a>, &lt;a href="https://www.redhat.com/en/topics/automation/what-is-yaml" target="_blank">&lt;strong>YAML&lt;/strong>&lt;/a>, &lt;a href="https://www.json.org/json-en.html" target="_blank">&lt;strong>JSON&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Frameworks&lt;/strong>: &lt;a href="https://nextjs.org/" target="_blank">&lt;strong>Next.js&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Libraries&lt;/strong>: &lt;a href="https://reactjs.org/" target="_blank">&lt;strong>React&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Build Tool&lt;/strong>: &lt;a href="https://nx.dev/" target="_blank">&lt;strong>Nx&lt;/strong>&lt;/a>, &lt;a href="https://odo.dev/" target="_blank">&lt;strong>odo&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Runtime&lt;/strong>: &lt;a href="https://nodejs.org/" target="_blank">&lt;strong>Node.js&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Deployment Environments&lt;/strong>: &lt;a href="https://en.wikipedia.org/wiki/Linux" target="_blank">&lt;strong>Linux&lt;/strong>&lt;/a>, &lt;a href="https://www.docker.com/" target="_target">&lt;strong>Docker&lt;/strong>&lt;/a>, &lt;a href="https://podman.io/" target="_blank">&lt;strong>Podman&lt;/strong>&lt;/a>, &lt;a href="https://kubernetes.io/" target="_blank">&lt;strong>Kubernetes&lt;/strong>&lt;/a>, &lt;a href="https://cloud.redhat.com/learn/what-is-openshift" target="_blank">&lt;strong>Red Hat OpenShift&lt;/strong>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h4 id="devfile-alizer">Devfile Alizer&lt;/h4>
+&lt;ul>
+&lt;li>A project information extraction utility&lt;/li>
+&lt;li>&lt;strong>GitHub&lt;/strong>: &lt;a href="https://github.com/devfile/alizer" target="_blank">&lt;strong>&lt;a href="https://github.com/devfile/alizer">https://github.com/devfile/alizer&lt;/a>&lt;/strong>&lt;/a> (Current), &lt;a href="https://github.com/redhat-developer/alizer" target="_blank">&lt;strong>&lt;a href="https://github.com/redhat-developer/alizer">https://github.com/redhat-developer/alizer&lt;/a>&lt;/strong>&lt;/a> (Old)&lt;/li>
+&lt;li>&lt;strong>Languages&lt;/strong>: &lt;a href="https://go.dev/" target="_blank">&lt;strong>Go&lt;/strong>&lt;/a>, &lt;a href="https://en.wikipedia.org/wiki/Shell_script" target="_blank">&lt;strong>Shell&lt;/strong>&lt;/a>, &lt;a href="https://www.redhat.com/en/topics/automation/what-is-yaml" target="_blank">&lt;strong>YAML&lt;/strong>&lt;/a>, &lt;a href="https://www.json.org/json-en.html" target="_blank">&lt;strong>JSON&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Deployment Environments&lt;/strong>: &lt;a href="https://en.wikipedia.org/wiki/Linux" target="_blank">&lt;strong>Linux&lt;/strong>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="directorytree-net-winforms-usercontrol">DirectoryTree .NET WinForms UserControl&lt;/h3>
+&lt;p>&lt;strong>Personal&lt;/strong> - &lt;em>Open Source Project&lt;/em>&lt;/p></description></item><item><title>Interests</title><link>https://michaelvaldron.ca/interests/</link><pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate><guid>https://michaelvaldron.ca/interests/</guid><description>&lt;p>Some interests of Michael&amp;rsquo;s include:&lt;/p>
 &lt;ul>
 &lt;li>Programming&lt;/li>
 &lt;li>Web Development (Frontend and Backend)&lt;/li>
@@ -61,7 +130,21 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>	&lt;span style="color:#a6e22e">fmt&lt;/span>.&lt;span style="color:#a6e22e">Println&lt;/span>(&lt;span style="color:#a6e22e">msg&lt;/span>)
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// =&amp;gt; Hello World!
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Publications</title><link>https://michaelvaldron.ca/publications/</link><pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate><guid>https://michaelvaldron.ca/publications/</guid><description>&lt;h2 id="thesis-publication">Thesis Publication&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Clojure&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-clojure" data-lang="clojure">&lt;span style="display:flex;">&lt;span>(&lt;span style="color:#a6e22e">require&lt;/span> &lt;span style="color:#f92672">&amp;#39;&lt;/span>[clojure.string &lt;span style="color:#e6db74">:as&lt;/span> clo-str])
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>(&lt;span style="color:#66d9ef">def &lt;/span>msg 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> (-&amp;gt; [
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;H&amp;#34;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;e&amp;#34;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;l&amp;#34;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;l&amp;#34;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;o&amp;#34;&lt;/span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34; &amp;#34;&lt;/span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;W&amp;#34;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;o&amp;#34;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;r&amp;#34;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;l&amp;#34;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;d&amp;#34;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;!&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> clo-str/join))
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>(&lt;span style="color:#66d9ef">defn &lt;/span>-main []
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> (println msg))
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">;; =&amp;gt; Hello World!&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>TypeScript&lt;/strong>&lt;/p></description></item><item><title>Publications</title><link>https://michaelvaldron.ca/publications/</link><pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate><guid>https://michaelvaldron.ca/publications/</guid><description>&lt;h2 id="thesis-publication">Thesis Publication&lt;/h2>
 &lt;ol>
 &lt;li>Valdron, M. J.: Extending the relational model with constraint satisfaction, &lt;a href="http://ir.library.dc-uoit.ca/handle/10155/1282" target="__blank">&lt;a href="http://ir.library.dc-uoit.ca/handle/10155/1282">http://ir.library.dc-uoit.ca/handle/10155/1282&lt;/a>&lt;/a>, (2021).&lt;/li>
 &lt;/ol>
