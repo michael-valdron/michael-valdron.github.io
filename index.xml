@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Michael Valdron</title><link>https://michaelvaldron.ca/</link><description>Recent content on Michael Valdron</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 18 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://michaelvaldron.ca/index.xml" rel="self" type="application/rss+xml"/><item><title>Projects</title><link>https://michaelvaldron.ca/projects/</link><pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate><guid>https://michaelvaldron.ca/projects/</guid><description>&lt;h2 id="current-projects">Current Projects&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Michael Valdron</title><link>https://michaelvaldron.ca/</link><description>Recent content on Michael Valdron</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 25 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://michaelvaldron.ca/index.xml" rel="self" type="application/rss+xml"/><item><title>Interests</title><link>https://michaelvaldron.ca/interests/</link><pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate><guid>https://michaelvaldron.ca/interests/</guid><description>&lt;p>Some interests of Michael&amp;rsquo;s include:&lt;/p>
+&lt;ul>
+&lt;li>Programming / Scripting&lt;/li>
+&lt;li>Web Development (Frontend and Backend)&lt;/li>
+&lt;li>Application Development&lt;/li>
+&lt;li>Cloud Computing&lt;/li>
+&lt;li>Operating Systems (GNU+Linux is a favourite)&lt;/li>
+&lt;li>Computer Building / Tinkering&lt;/li>
+&lt;/ul>
+&lt;p>Michael&amp;rsquo;s favourite programming languages lately includes:&lt;/p>
+&lt;p>&lt;strong>Go&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">package&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> (
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>	&lt;span style="color:#e6db74">&amp;#34;fmt&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>	&lt;span style="color:#e6db74">&amp;#34;strings&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">func&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">msgArr&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> []&lt;span style="color:#66d9ef">string&lt;/span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;H&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;e&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;l&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;l&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;o&amp;#34;&lt;/span>, 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34; &amp;#34;&lt;/span>, 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;W&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;o&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;r&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;l&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;d&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;!&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>	&lt;span style="color:#a6e22e">msg&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#a6e22e">strings&lt;/span>.&lt;span style="color:#a6e22e">Join&lt;/span>(&lt;span style="color:#a6e22e">msgArr&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>	&lt;span style="color:#a6e22e">fmt&lt;/span>.&lt;span style="color:#a6e22e">Println&lt;/span>(&lt;span style="color:#a6e22e">msg&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// =&amp;gt; Hello World!&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Clojure&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-clojure" data-lang="clojure">&lt;span style="display:flex;">&lt;span>(&lt;span style="color:#a6e22e">require&lt;/span> &lt;span style="color:#f92672">&amp;#39;&lt;/span>[clojure.string &lt;span style="color:#e6db74">:as&lt;/span> clo-str])
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>(&lt;span style="color:#66d9ef">def &lt;/span>msg 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> (-&amp;gt; [
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;H&amp;#34;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;e&amp;#34;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;l&amp;#34;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;l&amp;#34;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;o&amp;#34;&lt;/span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34; &amp;#34;&lt;/span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;W&amp;#34;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;o&amp;#34;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;r&amp;#34;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;l&amp;#34;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;d&amp;#34;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;!&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> clo-str/join))
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>(&lt;span style="color:#66d9ef">defn &lt;/span>-main []
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> (println msg))
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">;; =&amp;gt; Hello World!&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>TypeScript&lt;/strong>&lt;/p></description></item><item><title>Projects</title><link>https://michaelvaldron.ca/projects/</link><pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate><guid>https://michaelvaldron.ca/projects/</guid><description>&lt;h2 id="current-projects">Current Projects&lt;/h2>
 &lt;h3 id="devfile">Devfile&lt;/h3>
 &lt;p>&lt;strong>Software Engineer at Red Hat&lt;/strong> - &lt;em>Open Source Project&lt;/em>&lt;/p>
 &lt;ul>
@@ -101,50 +144,7 @@
 &lt;li>&lt;strong>Deployment Environments&lt;/strong>: &lt;a href="https://en.wikipedia.org/wiki/Linux" target="_blank">&lt;strong>Linux&lt;/strong>&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h3 id="directorytree-net-winforms-usercontrol">DirectoryTree .NET WinForms UserControl&lt;/h3>
-&lt;p>&lt;strong>Personal&lt;/strong> - &lt;em>Open Source Project&lt;/em>&lt;/p></description></item><item><title>Interests</title><link>https://michaelvaldron.ca/interests/</link><pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate><guid>https://michaelvaldron.ca/interests/</guid><description>&lt;p>Some interests of Michael&amp;rsquo;s include:&lt;/p>
-&lt;ul>
-&lt;li>Programming&lt;/li>
-&lt;li>Web Development (Frontend and Backend)&lt;/li>
-&lt;li>Application Development&lt;/li>
-&lt;li>Cloud Computing&lt;/li>
-&lt;li>Operating Systems (GNU+Linux is a favourite)&lt;/li>
-&lt;li>Computer Building/Tinkering&lt;/li>
-&lt;/ul>
-&lt;p>Michael&amp;rsquo;s favourite programming languages lately includes:&lt;/p>
-&lt;p>&lt;strong>Go&lt;/strong>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">package&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> (
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>	&lt;span style="color:#e6db74">&amp;#34;fmt&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>	&lt;span style="color:#e6db74">&amp;#34;strings&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">func&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>() {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">msgArr&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> []&lt;span style="color:#66d9ef">string&lt;/span>{
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;H&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;e&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;l&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;l&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;o&amp;#34;&lt;/span>, 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34; &amp;#34;&lt;/span>, 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;W&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;o&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;r&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;l&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;d&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;!&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>	&lt;span style="color:#a6e22e">msg&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#a6e22e">strings&lt;/span>.&lt;span style="color:#a6e22e">Join&lt;/span>(&lt;span style="color:#a6e22e">msgArr&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;&amp;#34;&lt;/span>)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>	&lt;span style="color:#a6e22e">fmt&lt;/span>.&lt;span style="color:#a6e22e">Println&lt;/span>(&lt;span style="color:#a6e22e">msg&lt;/span>)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// =&amp;gt; Hello World!&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Clojure&lt;/strong>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-clojure" data-lang="clojure">&lt;span style="display:flex;">&lt;span>(&lt;span style="color:#a6e22e">require&lt;/span> &lt;span style="color:#f92672">&amp;#39;&lt;/span>[clojure.string &lt;span style="color:#e6db74">:as&lt;/span> clo-str])
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>(&lt;span style="color:#66d9ef">def &lt;/span>msg 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> (-&amp;gt; [
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;H&amp;#34;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;e&amp;#34;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;l&amp;#34;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;l&amp;#34;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;o&amp;#34;&lt;/span> 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34; &amp;#34;&lt;/span> 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;W&amp;#34;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;o&amp;#34;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;r&amp;#34;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;l&amp;#34;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;d&amp;#34;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;!&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> clo-str/join))
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>(&lt;span style="color:#66d9ef">defn &lt;/span>-main []
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> (println msg))
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">;; =&amp;gt; Hello World!&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>TypeScript&lt;/strong>&lt;/p></description></item><item><title>Publications</title><link>https://michaelvaldron.ca/publications/</link><pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate><guid>https://michaelvaldron.ca/publications/</guid><description>&lt;h2 id="thesis-publication">Thesis Publication&lt;/h2>
+&lt;p>&lt;strong>Personal&lt;/strong> - &lt;em>Open Source Project&lt;/em>&lt;/p></description></item><item><title>Publications</title><link>https://michaelvaldron.ca/publications/</link><pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate><guid>https://michaelvaldron.ca/publications/</guid><description>&lt;h2 id="thesis-publication">Thesis Publication&lt;/h2>
 &lt;ol>
 &lt;li>Valdron, M. J.: Extending the relational model with constraint satisfaction, &lt;a href="http://ir.library.dc-uoit.ca/handle/10155/1282" target="__blank">&lt;a href="http://ir.library.dc-uoit.ca/handle/10155/1282">http://ir.library.dc-uoit.ca/handle/10155/1282&lt;/a>&lt;/a>, (2021).&lt;/li>
 &lt;/ol>
