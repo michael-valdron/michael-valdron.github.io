@@ -1,18 +1,18 @@
 ---
 title: "Interests"
 img: "/img/interests.jpg"
-date: "2024-01-17"
+date: "2025-01-25"
 draft: false
 ---
 
 Some interests of Michael's include:
 
-- Programming 
+- Programming / Scripting
 - Web Development (Frontend and Backend)
 - Application Development
 - Cloud Computing
 - Operating Systems (GNU+Linux is a favourite)
-- Computer Building/Tinkering
+- Computer Building / Tinkering
 
 Michael's favourite programming languages lately includes:
 
