@@ -21,7 +21,7 @@ params:
   GitlabID: mvaldron
   LinkedInID: michael-valdron-3b8614a5
   BitbucketID: mvaldron/workspace/projects/PROJ
-  GnuPGFingerprint: F8193F446E4075EE59826A50CDFF1776617540F8
+  GnuPGFingerprint: 35DE0EC89205B0B53095F81F482E6B623995A8C7
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
