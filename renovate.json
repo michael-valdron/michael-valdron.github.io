@@ -2,14 +2,5 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "baseBranches": ["main"],
   "enabledManagers": ["gomod", "github-actions"],
-  "automerge": true,
-  "packageRules": [
-    {
-      "matchUpdateTypes": ["major", "minor"],
-      "matchBaseBranches": "main",
-      "matchManagers": ["gomod"],
-      "matchDepTypes": ["golang"],
-      "enabled": false
-    }
-  ]
+  "automerge": true
 }
