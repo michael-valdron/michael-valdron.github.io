@@ -12,7 +12,7 @@ metadata:
 components:
   - name: runner
     container:
-      image: docker.io/michaelvaldron/hugo:go1.24
+      image: docker.io/michaelvaldron/hugo:go1.26
       sourceMapping: /projects
       endpoints:
         - exposure: public
