@@ -1,0 +1,10 @@
+services:
+  website:
+    image: docker.io/michaelvaldron/hugo:go1.26
+    pull_policy: always
+    restart: unless-stopped
+    network_mode: host
+    volumes:
+      - ${PWD}:/project:Z
+    working_dir: /project
+    command: hugo -D server

@@ -29,17 +29,42 @@ go install
 hugo server -D
 ```
 
-### odo v3
+### Compose
 
+Choose your container engine:
+
+**Podman**
 ```sh
-odo dev 
+export CONTAINER_ENGINE='podman'
 ```
 
-By default, the `baseURL` for Hugo is set to `localhost:20001`. If you are running more than one components at once this will need to be changed.
-For example, if the address binding will be `localhost:20002 -> 1313` then run the following:
+**Docker**
+```sh
+export CONTAINER_ENGINE='docker'
+```
+
+Run the following to Start Service in Background:
 
 ```sh
-odo dev --var baseURL=localhost:20002
+${CONTAINER_ENGINE} compose up -d
+```
+
+Run the following to Start Service in Foreground:
+
+```sh
+${CONTAINER_ENGINE} compose up
+```
+
+Run the following to Stop and Tidy up Service:
+
+```sh
+${CONTAINER_ENGINE} compose down
+```
+
+Quick one time run command with auto-removal after closing:
+
+```sh
+${CONTAINER_ENGINE} compose run --rm website
 ```
 
 ## Publishing
@@ -47,6 +72,18 @@ odo dev --var baseURL=localhost:20002
 Run `hugo --minify --baseURL=<base-url-of-web-server>`, then copy all content generated under `public` to any target web directory of a web server.
 
 To test out that this content is viewable from a web server, one can use `hugo --minify --baseURL=http://localhost:8000` followed by `python -m http.server --directory ./public`.
+
+### Compose
+
+```sh
+${CONTAINER_ENGINE} compose run --rm website hugo --minify --baseURL=http://localhost:8000
+```
+
+## Cleanup
+
+```sh
+rm -rf public/
+```
 
 ## Other Versions
 
